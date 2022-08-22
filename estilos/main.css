@@ -1,0 +1,128 @@
+body{
+    font-family: 'Kalam', cursive;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+   
+  
+}
+.btn{
+    margin: .5rem;
+
+}
+main{
+    background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+}
+
+
+/*header*/
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+.navbar >.container{
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 150px;
+}
+.nav-link{
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    
+
+}
+.acceso{
+    width: 20%;
+}
+
+.titulo{
+    font-family: 'Kalam', cursive;
+    
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* jugadores*/
+.row{
+    align-content: center;
+}
+.card{
+   padding: 2rem;
+   border-radius: 5%;
+   width: 300px;
+   margin:2rem;
+
+}
+.card:hover{
+    border-color: blue;
+    font-size: 20px;
+    border: solid 4px blue;
+    color:blue;
+   
+   
+ }
+ 
+.card-img-top{
+    height: 300px;
+}
+/*carrusel*/
+.carousel{
+    margin-top: 150px;
+    align-content: center;
+}
+.carousel-item{
+    box-sizing: border-box;
+    height: 400px;
+}
+/*footer*/
+.list-group-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+.grupo{
+    justify-content: space-between;
+    display: flex!important;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    justify-content: space-between;
+    background-color:#fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+ /*media adaptar al tamaño lg*/
+
+ @media only screen and (min-width:890px) {
+    .titulo{
+        width: 100%;
+    }
+    
+    
+ }
+
+ @media only screen and (min-width: 700px){
+    .footer{
+        flex-direction: row;
+       
+    }
+    
+ }
