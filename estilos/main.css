@@ -23,9 +23,22 @@ main{
 
 
 /*header*/
+#color{
+    background-color: rgb(112, 175, 231);
+}
 .logo{
     max-width: 100px;
     max-height: 100px;
+}
+#link{
+    border-color: black;
+    background-color: rgb(82, 82, 249);
+    color:#fefefe;
+    font-size: 20px;
+}
+#link:hover{
+    background-color: rgb(32, 9, 242);
+
 }
 .navbar >.container{
     align-content: center;
@@ -86,6 +99,16 @@ main{
     object-fit: contain;
 }
 /*footer*/
+
+#fondoimagen{
+    background-image: url(../imagenes/cancha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+    object-fit: fill;
+
+}
 .list-group-item{
     display: flex;
     justify-content: space-around;
@@ -104,6 +127,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+#autor{
+    font-size: 27px;
+    color:#fefefe
 }
 
 
