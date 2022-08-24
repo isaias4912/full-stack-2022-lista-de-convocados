@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/main.css">
+    <link rel="stylesheet" href="../estilos/registro.css">
+
+
     <title>SeleccionArgentina</title>
 </head>
 
@@ -37,11 +40,11 @@
                             <a class="  btn btn-outline" id="link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" btn btn-outline" id="link"href="partidos.html">Partido</a>
+                            <a class=" btn btn-outline" id="link" href="partidos.html">Partido</a>
                         </li>
                         <div class="d-flex">
-                            <a class="btn btn-outline"id="link" href="login.html" type="submit">IniciarSesion</a>
-                            <a class="btn btn-outline" id="link"type="submit">Registrarse</a>
+                            <a class="btn btn-outline" id="link" href="login.html" type="submit">IniciarSesion</a>
+                            <a class="btn btn-outline" id="link" type="submit">Registrarse</a>
                         </div>
 
                 </div>
@@ -49,7 +52,7 @@
             </div>
 
         </nav>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!--<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -79,22 +82,115 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div>-->
 
 
 
 
     </header>
+
     <main>
-        <P>CODIGO registro</P>
-        
+
+        <div class="container" id="Registro">
+            <h2 id="Titulo">INGRESE AQUÍ SUS DATOS PARA EL REGISTRO</h2>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Apellido</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Fecha de nacimiento</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Edad</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Correo electrónico</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">País</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Seleccione Pais de origen...</option>
+                        <option>Qatar</option>
+                        <option>Alemania</option>
+                        <option>Dinamarca</option>
+                        <option>Brasil</option>
+                        <option>Francia</option>
+                        <option>Bélgica</option>
+                        <option>Croacia</option>
+                        <option>España</option>
+                        <option>Serbia</option>
+                        <option>Inglaterra</option>
+                        <option>Suiza</option>
+                        <option>Holanda</option>
+                        <option>Argentina</option>
+                        <option>Irán</option>
+                        <option>Corea del Sur</option>
+                        <option>Japón</option>
+                        <option>Arabia Saudita</option>
+                        <option>Ecuador</option>
+                        <option>Uruguay</option>
+                        <option>Canadá</option>
+                        <option>Ghana</option>
+                        <option>Senegal</option>
+                        <option>Portugal</option>
+                        <option>Polonia</option>
+                        <option>Túnez</option>
+                        <option>Marruecos</option>
+                        <option>Camerún</option>
+                        <option>México</option>
+                        <option>Estados Unidos</option>
+                        <option>Gales</option>
+                        <option>Australia</option>
+                        <option>Costa Rica</option>
+
+                    </select>
+                </div> 
+
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+
+
+               
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Nombre de usuario</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Contraseña <h6>(Solo caracteres)</h6></label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Registrarse</button>
+                </div>
+            </form>
+        </div>
+
+
 
 
     </main>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
 
 
 </body>
@@ -104,46 +200,41 @@
             <div class="col align-items-start">
                 <img src="../imagenes/catar 2022.jpg">
             </div>
-            
         </div>
-        <div class="col-3 text-center"id="autor">
+
+        <div class="col-3 text-center" id="autor">
             <p> © Derechos Reservados </p>
             <p>grupo 8</p>
             <p>2022</p>
         </div>
-       
 
-       
+
         <div class="grupo">
-            
+
             <ul class="list-group">
-                <li  class="list-group-item  ">
+                <li class="list-group-item  ">
                     <p>Arroyo Flavia</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>
                 </li>
-                <li  class="list-group-item ">
+                <li class="list-group-item ">
                     <p>Bertero Leandro</p>
-                    <a href=""><img class="logo" src="../imagenes/github.png"></a>
+                    <a href="https://github.com/LeaBertero?tab=repositories" target="_blank"><img class="logo" src="../imagenes/github.png"></a>
                 </li>
                 <li class="list-group-item ">
                     <p>Carron Ayelen</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>
                 </li>
-                <li  class="list-group-item  ">
+                <li class="list-group-item  ">
                     <p>Navarro Alan</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>
                 </li>
-                <li  class="list-group-item ">
+                <li class="list-group-item ">
                     <p>Ramos Ruben</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>
                 </li>
-                
+
             </ul>
-        
-    
-
-
-
+        </div>
     </div>
 
 
