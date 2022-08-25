@@ -2,6 +2,8 @@
     margin-top: 280px;
     font-size: 25px;
     font-weight: bold;
+    
+
 }
 
 #Titulo{
@@ -13,10 +15,10 @@
 
 
 #BotonReg{
-
 padding:20px;
-font-size: 30px;
+font-size: 18px;
 text-align: center;
+font-family: var(--bs-body-font-family);
 background-color: red;
 box-shadow: 10px 20px 23px 20px black;
     
