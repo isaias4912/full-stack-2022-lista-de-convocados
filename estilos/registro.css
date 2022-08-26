@@ -1,5 +1,5 @@
 #Registro{
-    margin-top: 280px;
+    margin-top: 140px;
     font-size: 25px;
     font-weight: bold;
     
@@ -21,8 +21,21 @@ text-align: center;
 font-family: var(--bs-body-font-family);
 background-color: red;
 box-shadow: 10px 20px 23px 20px black;
+margin-top: 0%;
     
     }  
+    .container{
+        width:700px ;
+    }
+        
+    @media only screen and(min-width:576px) {
+    
+        .container {
+            width: 300px;
+            box-sizing: border-box;
+        }
+    }   
+    
         
         
         
