@@ -21,6 +21,11 @@ main{
     object-fit: fill;
 }
 
+#Index{
+    text-align: right;
+    color: black;
+}
+
 
 /*header*/
 #color{
