@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="../estilos/registro.css">
 
 
-    <title>Selección Argentina</title>
+    <title>Convocatoria Mundial Qatar 2022</title>
+    
 </head>
 
 <body>
@@ -25,8 +26,16 @@
                 <img class="logo" src="../imagenes/afa.png"></a>
 
                 <div class="titulo">
-                    <h1>Convocatoria Mundial Qatar 2022</h1>
+                    <div class="Convocatoria" id="ConvoxTexto">
+                        <h3><b>CONVOCADOS QATAR 2022</b></h3>
+                    </div>
+
                     <h3>Selección Argentina</h3>
+                    <style>
+                        h3{
+                            color: white;
+                        }
+                    </style>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,18 +43,23 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
                         <li class="nav-item">
                             <a class="  btn btn-outline" id="link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" btn btn-outline" id="link" href="partidos.html">Partido</a>
+                            <a class=" btn btn-outline" id="link" href="partidos.html">Partidos / Rivales</a>
                         </li>
                         <div class="d-flex">
-                            <a class="btn btn-outline" id="link" href="login.html" type="submit">Inicio Sesión</a>
-                            <a class="btn btn-outline" id="link" type="submit">Registrar</a>
+                            <a class="btn btn-outline" id="link" href="login.html" type="submit">Iniciar sesión</a>
+                            <a class="btn btn-outline" id="link" type="submit">Registro</a>
                         </div>
+
+                    </ul>
 
                 </div>
 
@@ -92,44 +106,72 @@
     <main>
 
         <div class="container" id="Registro">
-            <h2 id="Titulo">Para completar el registro complete el formualario</h2>
+            <h1 id="Titulo"><h2><b>REGISTRATE !!!</b></h2>
+                <style>
+                    h2{
+                        color: white;
+                    }
+                </style>
 
             <form class="row g-3">
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Nombre</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                <div class="col-sm-6 col-md-6">
+                    <label for="inputEmail4" class="form-label"><h5><b>Nombre</b></h5></label>
+                    <input type="Nombre" class="form-control" id="inputName">
+                    <style>
+                        h5{
+                            color: white;
+                        }
+                    </style>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Apellido</label>
-                    <input type="email" class="form-control" id="inputPassword4">
-                </div>
-
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Fecha de nacimiento</label>
-                    <input type="email" class="form-control" id="inputPassword4">
-                </div>
-
-
-
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Edad</label>
-                    <input type="email" class="form-control" id="inputPassword4">
+                    <label for="inputPassword4" class="form-label"><h5><b>Apellido</b></h5></label>
+                    <input type="email" class="form-control" id="inputlastname">
                 </div>
 
                 <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="inputPassword4">
+                    <label for="inputfechaNacimiento" class="form-label"><h5><b>Fecha de nacimiento</b></h5></label>
+                    <input type="fechaNacimiento" class="form-control" id="inputfechaNacimiento">
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <label for="inputEdad" class="form-label"><h5><b>Edad</b></h5></label>
+                    <input type="Edad" class="form-control" id="inputEdad">
                 </div>
 
                 <div class="col-md-6">
+                    <label for="inputMail" class="form-label"><h5><b>Mail</b></h5></label>
+                    <input type="mail" class="form-control" id="inputmail">
+                </div>
+
+                <!-- <div class="col-md-6">
                     <label for="inputPassword4" class="form-label">Confirmar Correo electrónico</label>
                     <input type="email" class="form-control" id="inputPassword4">
+                </div> -->
+
+                <!-- <div class="col-sm-6">
+                    <label for="inputCity" class="form-label"><h5><b>Ciudad</b></h5></label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div> -->
+
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label"><h5><b>Nombre de usuario</b></h5></label>
+                    <input type="email" class="form-control" id="inputPassword4">
                 </div>
 
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">País</label>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label"><h5><b>Contraseña</b></label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                <!-- </div> -->
+
+                <div class="col-md-6">
+                    
+                    <label for="inputState" class="form-label"><h6><b>País</b></h6></label>
+
                     <select id="inputState" class="form-select">
-                        <option selected>Seleccione Pais de origen...</option>
+                        <option selected><b>Seleccione su país...</b></option>
                         <option>Qatar</option>
                         <option>Alemania</option>
                         <option>Dinamarca</option>
@@ -166,27 +208,14 @@
                     </select>
                 </div>
 
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">Ciudad</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-
-
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Nombre de usuario</label>
-                    <input type="email" class="form-control" id="inputPassword4">
-                </div>
-
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Contraseña <h6>(Solo caracteres)</h6></label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                </div>
-
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary" id="BotonReg">Registrarse</button>
                 
-                </div>
+
             </form>
+                
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="BotonReg">Registrarse</button>
+            </div>
+                
         </div>
 
 
@@ -196,7 +225,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-        </script>
+    </script>
 
 
 </body>
@@ -222,6 +251,11 @@
                     <p>Arroyo Flavia</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>
                 </li>
+                <li class="list-group-item  ">
+                    <p>Ale Peña</p>
+                    <!--Poner direccion d GitHub en href-->
+                    <a href=""><img class="logo" src="imagenes/github.png"></a>
+                </li>
                 <li class="list-group-item ">
                     <p>Bertero Leandro</p>
                     <a href="https://github.com/LeaBertero?tab=repositories" target="_blank"><img class="logo"
@@ -231,10 +265,7 @@
                     <p>Carron Ayelen</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>
                 </li>
-                <li class="list-group-item  ">
-                    <p>Navarro Alan</p>
-                    <a href=""><img class="logo" src="../imagenes/github.png"></a>
-                </li>
+                
                 <li class="list-group-item ">
                     <p>Ramos Ruben</p>
                     <a href=""><img class="logo" src="../imagenes/github.png"></a>

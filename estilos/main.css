@@ -12,6 +12,14 @@ h1{
     margin: .5rem;
 
 }
+
+
+
+
+
+
+
+
 main{
     background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
     background-size: cover;
@@ -19,6 +27,10 @@ main{
     width: 100vw;
     background-position: center;
     object-fit: fill;
+}
+
+#TituloSeleccion{
+    text-align: center;
 }
 
 
@@ -40,7 +52,7 @@ main{
     background-color: rgb(32, 9, 242);
 
 }
-.navbar >.container{
+.navbar .container{
     align-content: center;
     flex-direction: column;
     justify-content: space-between;

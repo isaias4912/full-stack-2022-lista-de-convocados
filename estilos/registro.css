@@ -1,28 +1,53 @@
 #Registro{
-    margin-top: 280px;
+    margin-top: 100px;
     font-size: 25px;
     font-weight: bold;
+    text-align: left;
+}
     
 
-}
 
 #Titulo{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
+    background-color: blue;
+    box-shadow: 5px 150px 1800px 200px blue;
 }
+    
+    #ConvoxTexto{
+        text-align: center;
+        font-size: 60px;
+        box-shadow: 10px 10px 10px 10px rgb(78, 101, 182);
+    }
+    
 
 
 #BotonReg{
-padding:20px;
-font-size: 18px;
+padding:15px;
+font-size: 14px;
 text-align: center;
 font-family: var(--bs-body-font-family);
 background-color: red;
-box-shadow: 10px 20px 23px 20px black;
+box-shadow: 2px 2px 12px 8px black;
+margin-top: 8%;
+margin-bottom: 5cm;
     
-    }  
+}  
+
+    .container{
+        width:700px ;
+    }
+        
+    @media only screen and(min-width:576px) {
+    
+        .container {
+            width: 300px;
+            box-sizing: border-box;
+        }
+    }   
+    
         
         
         
