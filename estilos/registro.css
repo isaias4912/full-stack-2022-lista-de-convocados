@@ -12,7 +12,16 @@
     padding-top: 40px;
     font-weight: bold;
     font-size: 60px;
+    background-color: blue;
+    box-shadow: 5px 150px 1800px 200px blue;
 }
+    
+    #ConvoxTexto{
+        text-align: center;
+        font-size: 60px;
+        box-shadow: 10px 10px 10px 10px rgb(78, 101, 182);
+    }
+    
 
 
 #BotonReg{
@@ -25,7 +34,8 @@ box-shadow: 2px 2px 12px 8px black;
 margin-top: 8%;
 margin-bottom: 5cm;
     
-    }  
+}  
+
     .container{
         width:700px ;
     }
