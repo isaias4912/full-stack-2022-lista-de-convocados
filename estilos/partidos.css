@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family= Mochiy+Pop+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+
+.contener{
+    color:rgb(240, 232, 232);
+    background: size 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    background-image: url("../imagenes/imagenes/fondo10.jpg");
+ }
+
+h1,h2{
+    color:rgb(225, 225, 238);
+    
+    
+}
+
+h3 {
+    padding-bottom: 10px;
+    color:rgb(231, 212, 41);
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+}
+
+.aling {
+    text-align: center;
+} 
+
+.titulo-seleccion {
+    color: rgb(187, 187, 207);
+    padding-top: 10px;
+    margin: 0px; 
+    text-align-last: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.titulos-futbol {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.linea{
+    border-bottom: 1px solid white;
+    width: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+.bandera{
+    width: 50px;
+}
+
+.partido1{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 49%;
+    padding-top: 0px;
+    align-items: center;
+    align-content: center;
+    background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+    filter: opacity(0.8);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.equipos{
+    color: aliceblue;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.guion{
+    color:rgb(218, 240, 22);
+    font-size: 53px;
+    margin: 1px;
+}
+
+h4,h5,h6{
+    text-align: center;  
+}
+.partido2{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    padding-top: 0px;
+    align-items: center;
+    align-content: center;
+    background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+    filter: opacity(0.8);
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.partido3{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    
+    align-items: center;
+    align-content: center;
+    background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+    filter: opacity(0.8);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.fecha{
+    padding-top: 0px;
+}
+.titulo4{
+    color: aliceblue;
+}
+.titulo5{
+    color: black;
+}
