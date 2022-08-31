@@ -3,13 +3,14 @@
 
 
 
-.contener{
+.contener-fluid{
     color:rgb(240, 232, 232);
     background: size 100px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
     background-image: url("../imagenes/imagenes/fondo10.jpg");
+    margin-top: 120;
  }
 
 h1,h2{
