@@ -1,11 +1,37 @@
 #Registro{
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 25px;
     font-weight: bold;
     text-align: left;
+    color: whitesmoke;
+    margin-top: 3cm ;
+    background-color: rgb(15, 175, 190);
+
 }
     
+#IdNombre{
+    margin-top: 8px;
+}
 
+#IdFechaNac{
+    margin-top: 8px;
+}
+
+#IdEdad{
+    margin-top: 8px;
+}
+
+#Mail{
+    margin-top: 8px;
+}
+
+#UserName{
+    margin-top: 8px;
+}
+
+#ClaveUser{
+    margin-top: 8px;
+}
 
 #Titulo{
     text-align: center;
@@ -16,6 +42,11 @@
     box-shadow: 5px 150px 1800px 200px blue;
 }
     
+
+#datosregistroUser{
+    color: black;
+}
+
     #ConvoxTexto{
         text-align: center;
         font-size: 60px;
