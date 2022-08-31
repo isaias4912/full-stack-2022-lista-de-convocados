@@ -19,10 +19,28 @@
     #ConvoxTexto{
         text-align: center;
         font-size: 60px;
-        box-shadow: 10px 10px 10px 10px rgb(78, 101, 182);
+        box-shadow: 10px 10px 10px 10px rgb(121, 131, 167);
+        background-color: rgb(0, 183, 255);
+        
+        
+    }
+
+    #Sub_Seleccion_reg{
+        
+        text-align: center;
+        text-align: center;
+        font-size: 60px;
+        box-shadow: 10px 10px 10px 10px rgb(121, 131, 167);
+        background-color: rgb(0, 183, 255);
+
     }
     
-
+#Reg_user{
+    text-align: center;
+    
+    box-shadow: rgb(157, 184, 204) 5px 5px 5px 5px;
+    
+}
 
 #BotonReg{
 padding:15px;
