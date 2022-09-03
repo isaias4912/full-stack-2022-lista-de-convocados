@@ -34,16 +34,17 @@
 
                     <div class="Convocatoria" id="ConvoxTexto">
                        
+                        <style>
+                            .TituloPrincipal_Registro{
+                            }
+                        </style>
+
                         <div class="TituloPrincipal_Registro" id="Reg_user">
                             <h3><b>CONVOCADOS QATAR 2022</b></h3>
                         </div>
                         
                         <!--No funciona para cambiar de color, no se por que!! , aiudaaaaaaa !!-->
-                        <style>
-                            h3{
-                                color: black;
-                            }
-                        </style>
+                        
 
                     </div>
 
@@ -138,24 +139,39 @@
 
     <main>
 
-        <div class="container" id="Registro">
-            <h1 id="Titulo"><h1><b>REGISTRATE !!!</b></h1>
+        <div class="container">
+            
+            <!--Estilo del titulo "Registro"-->
+            <style>
+                h1{
+                    color: orangered;
+                    padding: 40px;
+                    text-align: center;
+                }
+            </style>
+
+            <div class="tituloregistro">
+                <h1 id="Titulo"><h1><b>REGISTRATE !!!</b></h1>
+            </div>
                 
 
-                <form class="row g-3">
+            <form class="row g-3">
 
-                <div class="DatosRegUser" id="datosregistroUser">
-
-                    <!-- <style>
-                        h3{
-                            color: whitesmoke;
-                        }
-                    </style> -->
+                <div class="DatosRegUser">
 
                     <div class="col-sm-12 col-md-6 col-xl-6">
-                    
-                        <div class="Nombre" id="IdNombre">
-                            <label for="inputEmail4" class="form-label"><h3><b>Nombre y apellido</b></h3></label>
+                        <!--Necesito hacer funcionar cada cosa individualmente y darle estilos por separado-->
+                        <style>
+                            .NomApp{
+                                margin-top: 4px;
+                                color: red;
+                                padding: 1px;
+                                text-align: left;
+                            }
+                        </style>
+
+                        <div class="NomApp">
+                            <label for="inputEmail4" class="NomApp"><h3><b>Nombre y apellido</b></h3></label>
                             <input type="Nombre" class="form-control" id="inputName">
                         </div>
     
@@ -212,7 +228,7 @@
                 </div>
 
                 
-                <div class="Lista" id="ListaPaises">
+                <div class="Lista">
 
                     <div class="col-sm-12 col-md-6 col-xl-6">
 
@@ -222,47 +238,51 @@
                     
                         <label for="inputState" class="form-label"><h3><b>País</b></h3></label>
 
+                        
+                        <!--Estilo del menu de seleccionar paises-->
                         <style>
-                            h3{
-                                color: black;
-                                margin-top: 8px;
+                            .form-select{
+                                color: red;
+                                font-size: 18px;
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                             }
-                            
                         </style>
-    
-                        <select id="inputState" class="form-select">
-                            <option selected><b>Seleccione su país...</b></option>
-                            <option>Qatar</option>
-                            <option>Alemania</option>
-                            <option>Dinamarca</option>
-                            <option>Brasil</option>
-                            <option>Francia</option>
-                            <option>Croacia</option>
-                            <option>España</option>
-                            <option>Serbia</option>
-                            <option>Inglaterra</option>
-                            <option>Suiza</option>
-                            <option>Holanda</option>
-                            <option>Argentina</option>
-                            <option>Irán</option>
-                            <option>Corea del Sur</option>
-                            <option>Japón</option>
-                            <option>Arabia Saudita</option>
-                            <option>Ecuador</option>
-                            <option>Uruguay</option>
-                            <option>Canadá</option>
-                            <option>Ghana</option>
-                            <option>Senegal</option>
-                            <option>Portugal</option>
-                            <option>Polonia</option>
-                            <option>Túnez</option>
-                            <option>Marruecos</option>
-                            <option>Camerún</option>
-                            <option>México</option>
-                            <option>Estados Unidos</option>
-                            <option>Gales</option>
-                            <option>Australia</option>
-                            <option>Costa Rica</option>
+
+                        <div class="form-select">
+                            <select class="form-select">
+                                <option selected><b>Seleccione su país...</b></option>
+                                <option>Qatar</option>
+                                <option>Alemania</option>
+                                <option>Dinamarca</option>
+                                <option>Brasil</option>
+                                <option>Francia</option>
+                                <option>Croacia</option>
+                                <option>España</option>
+                                <option>Serbia</option>
+                                <option>Inglaterra</option>
+                                <option>Suiza</option>
+                                <option>Holanda</option>
+                                <option>Argentina</option>
+                                <option>Irán</option>
+                                <option>Corea del Sur</option>
+                                <option>Japón</option>
+                                <option>Arabia Saudita</option>
+                                <option>Ecuador</option>
+                                <option>Uruguay</option>
+                                <option>Canadá</option>
+                                <option>Ghana</option>
+                                <option>Senegal</option>
+                                <option>Portugal</option>
+                                <option>Polonia</option>
+                                <option>Túnez</option>
+                                <option>Marruecos</option>
+                                <option>Camerún</option>
+                                <option>México</option>
+                                <option>Estados Unidos</option>
+                                <option>Gales</option>
+                                <option>Australia</option>
+                                <option>Costa Rica</option>
+                        </div>
     
                         </select>
     
@@ -274,11 +294,15 @@
 
             </form>
                 
+
+            
+
             <div class="col-12">
                 <button type="submit" class="btn btn-primary" id="BotonReg">Registrarse</button>
             </div>
-                
         </div>
+                
+        
 
 
 

@@ -1,38 +1,15 @@
+/**/
 #Registro{
     margin-top: 80px;
     font-size: 25px;
     font-weight: bold;
     text-align: left;
-    color: whitesmoke;
+    /* color: whitesmoke; */
     margin-top: 3cm ;
     background-color: rgb(15, 175, 190);
 
 }
-    
-#IdNombre{
-    margin-top: 8px;
-}
-
-#IdFechaNac{
-    margin-top: 8px;
-}
-
-#IdEdad{
-    margin-top: 8px;
-}
-
-#Mail{
-    margin-top: 8px;
-}
-
-#UserName{
-    margin-top: 8px;
-}
-
-#ClaveUser{
-    margin-top: 8px;
-}
-
+    /*Diseño de titulo*/
 #Titulo{
     text-align: center;
     padding-top: 40px;
@@ -42,49 +19,19 @@
     box-shadow: 5px 150px 1800px 200px blue;
 }
     
-
-#datosregistroUser{
-    color: black;
-}
-
-    #ConvoxTexto{
-        text-align: center;
-        font-size: 60px;
-        box-shadow: 10px 10px 10px 10px rgb(121, 131, 167);
-        background-color: rgb(0, 183, 255);
-        
-        
-    }
-
-    #Sub_Seleccion_reg{
-        
-        text-align: center;
-        text-align: center;
-        font-size: 60px;
-        box-shadow: 10px 10px 10px 10px rgb(121, 131, 167);
-        background-color: rgb(0, 183, 255);
-
-    }
-    
-#Reg_user{
-    text-align: center;
-    
-    box-shadow: rgb(157, 184, 204) 5px 5px 5px 5px;
-    
-}
-
+/* Diseño del boton de registro*/
 #BotonReg{
 padding:15px;
 font-size: 14px;
 text-align: center;
 font-family: var(--bs-body-font-family);
-background-color: red;
-box-shadow: 2px 2px 12px 8px black;
+background-color: orangered;
+box-shadow: 2px 2px 12px 8px whitesmoke;
 margin-top: 8%;
 margin-bottom: 5cm;
     
 }  
-
+/*Responsive*/
     .container{
         width:700px ;
     }
