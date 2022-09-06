@@ -15,14 +15,21 @@
 #BotonReg{
 padding:15px;
 font-size: 14px;
-text-align: center;
+/* text-align: right; */
 font-family: var(--bs-body-font-family);
 background-color: orangered;
 box-shadow: 2px 2px 12px 8px whitesmoke;
-margin-top: 8%;
-margin-bottom: 5cm;
+margin-top: 16px;
+margin-bottom: 1cm;
     
 }  
+
+
+#color{
+    color: green;
+    padding: -35px;
+    background-color: azure;
+}
 /*Responsive*/
 /*Diseño y tamaño de las cajas de input (TextBox)*/
     /* .container{
