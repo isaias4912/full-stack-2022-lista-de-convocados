@@ -22,51 +22,27 @@
 </head>
 
 <body>
+
+
+    
+       
+
+        
+
     <header>
+
+
+       
 
         <nav class="navbar navbar-expand-md  fixed-top" id="color">
 
             <div class="container-fluid ">
 
+               
+
                 <img class="logo" src="../imagenes/afa.png"></a>
 
-                <div class="titulo">
-
-                    <div class="Convocatoria" id="ConvoxTexto">
-                       
-                        <style>
-                            .TituloPrincipal_Registro{
-                            }
-                        </style>
-
-                        <div class="TituloPrincipal_Registro" id="Reg_user">
-                            <h3><b>CONVOCADOS QATAR 2022</b></h3>
-                        </div>
-                        
-                        <!--No funciona para cambiar de color, no se por que!! , aiudaaaaaaa !!-->
-                        
-
-                    </div>
-
-                    <div class="Subtitle" id="Sub_Seleccion_reg">
-                        <!--No funciona para cambiar de color, no se por que!! , aiudaaaaaaa !!-->
-                        <h3>Selección Argentina</h3>
-                        <style>
-                            h3{
-                                color: black;
-                            }
-                        </style>
-                    </div>
-
-                    <style>
-
-                        h3{
-                            color: white;
-                        }
-                        
-                    </style>
-
-                </div>
+                
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 
@@ -83,7 +59,7 @@
                     <ol class="navbar-nav me-auto mb-2 mb-lg-0">
                         
                         <li class="nav-item">
-                            <a class="  btn btn-outline" id="link" aria-current="page" href="../index.html"><h6><b>Home</b></h6></a>
+                            <a class="  btn btn-outline" id="link" aria-current="page" href="../index.html"><h6><b>Principal</b></h6></a>
                         </li>
 
                         <li class="nav-item">
@@ -102,6 +78,10 @@
             </div>
 
         </nav>
+
+
+        
+
         <!--<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -139,22 +119,62 @@
 
     </header>
 
+   
+
     <main>
 
-        <div class="container">
+        <div class="Titulo">
             
-            <!--Estilo del titulo "Registro"-->
+            <div class="TituloRegistro">
+            <h1><b>Registrate</b></h1>
+            </div>
+            
             <style>
-                h1{
-                    color: orangered;
-                    padding: 40px;
+                
+                H1{
+                    padding: 50px;
+                    /* box-shadow: 5px 5px 5px 15px whitesmoke; */
+                    /* font-size: 160px; */
                     text-align: center;
+                    margin-top: 80px;
+                    /* color: red;  */
+                    font-family: sans-serif;
+                    font-size: 270px;
+                    
                 }
+
             </style>
 
-            <div class="tituloregistro">
-                <h1 id="Titulo"><h1><b>REGISTRATE !!!</b></h1>
+        </div>
+
+        <div class="Registrate">
+            
+            <div>
+                   
+                <h1>Convocados Qatar 2022</h1>
+        
+                <style>
+
+                    h1{
+                        text-align: left;
+                        color: whitesmoke;
+                        margin-top: 75px;
+                        background-color: cornflowerblue;
+                        box-shadow: 220px 100px 200px 10px lightblue;
+                        /* padding: 30px; */
+                        font-size: 80px;
+                        text-align: center;
+                    }
+                    
+                </style>
+        
             </div>
+        
+        <div class="container">
+
+           
+
+            
                 
 
             <form class="row g-3">
@@ -162,17 +182,19 @@
                 <div class="DatosRegUser">
 
                     <div class="col-sm-12 col-md-6 col-xl-6">
-                        <!--Necesito hacer funcionar cada cosa individualmente y darle estilos por separado-->
-                        <style>
-                            .NomApp{
-                                margin-top: 4px;
-                                color: red;
-                                padding: 1px;
-                                text-align: left;
-                            }
-                        </style>
+                        
+                       
 
-                        <div class="NomApp">
+                        <div class="Nombre">
+
+                            <style>
+                                h3{
+                                    color: cornflowerblue;
+                                    padding-top: 150px;
+                                    padding: 10px;
+                                }
+                            </style>
+
                             <label for="inputEmail4" class="NomApp"><h3><b>Nombre y apellido</b></h3></label>
                             <input type="Nombre" class="form-control" id="inputName">
                         </div>
@@ -180,7 +202,13 @@
                     </div>
     
     
-                    <div class="Fecha" id="IdFechaNac">
+                    <div class="Fecha">
+
+                        <style>
+                            label{
+                                padding: 10px;
+                            }
+                        </style>
     
                         <div class="col-sm-12 col-md-6 col-xl-6">
                             <label for="inputfechaNacimiento" class="form-label"><h3><b>Fecha de nacimiento</b></h3></label>
@@ -192,6 +220,12 @@
     
     
                     <div class="Edad">
+
+                        <style>
+                            h3{
+                                padding: 10px;
+                            }
+                        </style>
     
                         <div class="col-sm-12 col-md-6 col-xl-6">
                             <label for="inputEdad" class="form-label"><h3><b>Edad</b></h3></label>
@@ -200,7 +234,13 @@
     
                     </div>
                     
-                    <div class="Mail">
+                    <div class="Correo">
+
+                        <style>
+                            h3{
+                                padding: 10px;
+                            }
+                        </style>
     
                         <div class="ccol-sm-12 col-md-6 col-xl-6">
                             <label for="inputMail" class="form-label"><h3><b>Correo electrónico</b></h3></label>
@@ -209,7 +249,13 @@
     
                     </div>
     
-                    <div class="nameuser">
+                    <div class="NomUser">
+
+                        <style>
+                            h3{
+                                padding: 10px;
+                            }
+                        </style>
     
                         <div class="col-sm-12 col-md-6 col-xl-6">
                             <label for="inputPassword4" class="form-label"><h3><b>Nombre de usuario</b></h3></label>
@@ -218,7 +264,13 @@
     
                     </div>
                     
-                    <div class="Contraseña">
+                    <div class="Clave">
+
+                        <style>
+                            h3{
+                                padding: 10px;
+                            }
+                        </style>
                         
                         <div class="col-sm-12 col-md-6 col-xl-6">
                             <label for="inputPassword4" class="form-label"><h3><b>Contraseña</b></h3></label>
@@ -234,25 +286,26 @@
 
                     <div class="col-sm-12 col-md-6 col-xl-6">
 
-                        <style>
-                            
-                        </style>
-                    
-                        <label for="inputState" class="form-label"><h3><b>País</b></h3></label>
-
-                        
-                        <!--Estilo del menu de seleccionar paises-->
+                       <!--Estilo del menú de (seleccionar paises convocados al mundial)-->
                         <style>
                             .form-select{
-                                color: red;
-                                font-size: 18px;
+                                color: whitesmoke;
+                                font-size: 15px;
                                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                background-color: cornflowerblue;
+                                
+
                             }
                         </style>
 
                         <div class="form-select">
+
+                           
+                            
                             <select class="form-select">
+
                                 <option selected><b>Seleccione su país...</b></option>
+                                
                                 <option>Qatar</option>
                                 <option>Alemania</option>
                                 <option>Dinamarca</option>

@@ -1,24 +1,16 @@
 /**/
-#Registro{
+/* #Registro{
     margin-top: 80px;
     font-size: 25px;
     font-weight: bold;
     text-align: left;
-    /* color: whitesmoke; */
+    color: whitesmoke; 
     margin-top: 3cm ;
     background-color: rgb(15, 175, 190);
 
-}
-    /*Diseño de titulo*/
-#Titulo{
-    text-align: center;
-    padding-top: 40px;
-    font-weight: bold;
-    font-size: 60px;
-    background-color: blue;
-    box-shadow: 5px 150px 1800px 200px blue;
-}
+} */
     
+ 
 /* Diseño del boton de registrarse*/
 #BotonReg{
 padding:15px;
@@ -32,9 +24,13 @@ margin-bottom: 5cm;
     
 }  
 /*Responsive*/
-    .container{
-        width:700px ;
-    }
+/*Diseño y tamaño de las cajas de input (TextBox)*/
+    /* .container{
+        width:800px ;
+        text-align: left;
+        padding: 5px;
+        color: black;
+    } */
         
     @media only screen and(min-width:576px) {
     
