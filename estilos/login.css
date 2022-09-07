@@ -1,11 +1,10 @@
-<<<<<<< Updated upstream
 .modal-content{
     background-color: #FFF;
     box-shadow: 10px 10px 5px rgb(34, 33, 2);
     
 }
-#staticBackdrop{
-    background-image: url("imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp");
+#loginModal{
+    background-image: url("../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp");
     background-size:cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -13,23 +12,22 @@
     object-fit: fill;
 
 }
-#staticBackdropLabel{
+#loginModalLabel{
     color: #f1c901;
     font-weight: bolder;
     text-shadow: 1px 1px 1px rgb(34, 33, 2);
        
 }
 .modal-footer{
-    
-  width: 100;
+  width: 100%;
   margin-bottom: 0px;
   
 }
 .modal-contraseña{
 padding: 10px;
-=======
-#titulo{
-    text-align: center;
->>>>>>> Stashed changes
     
+}
+.modal-title{
+    text-align: center;
+    width: 100%;
 }
