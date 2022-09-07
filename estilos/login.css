@@ -4,12 +4,12 @@
     
 }
 #loginModal{
-    background-image: url("../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp");
+    /*background-image: url("../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp");
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     width: 100vw;
-    background-position: center;
-    object-fit: fill;
+    /*background-position: center;
+    object-fit: fill;*/
 
 }
 #loginModalLabel{
@@ -19,8 +19,10 @@
        
 }
 .modal-footer{
+ 
   width: 100%;
   margin-bottom: 0px;
+  display: flex;
   
 }
 .modal-contraseña{
@@ -28,6 +30,6 @@ padding: 10px;
     
 }
 .modal-title{
-    text-align: center;
-    width: 100%;
+ text-align: center;
+ width: 100%;
 }

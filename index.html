@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos/main.css">
-    <link rel="stylesheet" href="../estilos/login.css">
+    <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="./estilos/login.css">
     
     
     <title>Convocatoria Mundial Qatar 2022</title>
@@ -48,8 +48,8 @@
                         <div class="d-flex">
                             
                             <a class="btn btn-outline" type="submit" id="link"
-                            href="./pantallas/login.html"><h6><b>Iniciar sesión</b></h6>
-                            </a>
+                            data-bs-toggle="modal" data-bs-target="#loginModal"><h6><b>Iniciar sesión</b></h6>
+                            </a>                    
                             
                             <a class="btn btn-outline" type="submit" id="link"
                                 href="pantallas/registro.html"><h6><b>Registro</b></h6>
@@ -95,6 +95,66 @@
                 <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
+
+        <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" 
+            tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel"> Iniciar sesión</h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container-login ">
+                            <form class="needs-validation">
+        
+                                <label for="userid" class="formlabel">Usuario</label>
+                                <input type="text" class="form-control" id="userid" required
+                                    placeholder="Usuario">
+                                <div class="valid-feedback">
+                                    Registro exitoso
+                                </div>
+                                <div class="invalid-feedback">
+                                    Nombre de usuario incorrecto
+                                    <!-- mensaje con condiciones -->
+                                </div>
+        
+        
+                                <label for="passwordid" class="formlabel">Contraseña</label>
+                                <input type="text" class="form-control" id="passwordid" required
+                                    placeholder="Contraseña">
+                                <div class="valid-feedback">
+                                    Registro exitoso
+                                </div>
+                                <div class="invalid-feedback">
+                                    Clave no valida
+                                    <!-- mensaje con condiciones -->
+                                </div>
+        
+                            </form>
+        
+                        </div>
+        
+        
+                    </div>
+                    <div class="modal-footer">               
+                            
+                        <div class="row text-center w-100">
+                                <button type="submit" class="btn btn-primary" > Enviar
+                                </button>
+                                <div class="modal-contraseña">
+                                
+                                <p> Olvidaste tu contraseña? <a href="xxx">Recuperar contraseña</a> </p>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>            
+
     </header>
 
     <main>
