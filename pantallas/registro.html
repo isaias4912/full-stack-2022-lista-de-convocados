@@ -12,483 +12,302 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/main.css">
-    <link rel="stylesheet" href="../estilos/registro.css">
     <link rel="stylesheet" href="../estilos/login.css">
+    <link rel="stylesheet" href="../estilos/registro.css">
 
 
     <title>Convocatoria Mundial Qatar 2022</title>
-    <!-- <link rel="stylesheet" type="text/css" href="estilo.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    
 </head>
 
+
 <body>
-
-
-    
-       
-
-        
-
     <header>
+       
+        
+        <nav class="navbar navbar-expand-md  fixed-top " id="color">
+            <div class="logo">
+                <img  src="../imagenes/afa.png"></a>
+    
+            </div>
+           
+            <div class="container-fluid contenedor">
+               
 
-        <nav class="navbar navbar-expand-md  fixed-top" id="color">
-
-            <div class="container-fluid ">
-
-                <img class="logo" src="../imagenes/afa.png"></a>
+                <div class="tituloCentral">
+                    <h1>Convocatoria Mundial Qatar 2022</h1>
+                    <h3>Selección Argentina</h3>
+                </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-
                 </button>
 
-                <div class="collapse navbar-collapse">
-
-                    
-                    <ol class="navbar-nav me-auto mb-2 mb-lg-0">
-                        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="  btn btn-outline" id="link" aria-current="page" href="../index.html"><h6><b>Principal</b></h6></a>
+                            <a class=" btn btn-outline" id="link" href="../index.html">Home</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class=" btn btn-outline" id="link" href="partidos.html"><h6><b>Partidos/Rivales</b></h6></a>
+                            <a class=" btn btn-outline" id="link" href="partidos.html">Partidos</a>
                         </li>
-
-                        <div class="d-flex">
-                            
-                            <a class="btn btn-outline" type="submit" id="link"
-                            data-bs-toggle="modal" data-bs-target="#loginModal"><h6><b>Iniciar sesión</b></h6>
-                            </a> 
-                            
-                            <a class="btn btn-outline" type="submit" id="link"
-                                href="pantallas/registro.html"><h6><b>Registro</b></h6>
+                        <li class="nav-item">
+                            <a class=" btn btn-outline" id="link" href="grupos.html">Grupos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline" type="submit" id="link" 
+                                href="login.html">Iniciar sesión
                             </a>
 
-                        </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline" type="submit" id="link" href="registro.html">Registro
+                            </a>
 
-                    </ol>
+                        </li>
+
+                    </ul>
 
                 </div>
+                
 
             </div>
 
         </nav>
 
-
-        
-
-        <!--<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../imagenes/copamundo.jpg" class="d-block w-100 h-100 img-fluid" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../imagenes/maradona.jpg" class="d-block w-100 h-100 img-fluid" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../imagenes/copa.jpg" class="d-block w-100 h-100 img-fluid" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>-->
-
-
-        <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" 
-            tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="loginModalLabel"> Iniciar sesión</h5>
-                        
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="container-login ">
-                            <form class="needs-validation">
-        
-                                <label for="userid" class="formlabel">Usuario</label>
-                                <input type="text" class="form-control" id="userid" required
-                                    placeholder="Usuario">
-                                <div class="valid-feedback">
-                                    Registro exitoso
-                                </div>
-                                <div class="invalid-feedback">
-                                    Nombre de usuario incorrecto
-                                    <!-- mensaje con condiciones -->
-                                </div>
-        
-        
-                                <label for="passwordid" class="formlabel">Contraseña</label>
-                                <input type="text" class="form-control" id="passwordid" required
-                                    placeholder="Contraseña">
-                                <div class="valid-feedback">
-                                    Registro exitoso
-                                </div>
-                                <div class="invalid-feedback">
-                                    Clave no valida
-                                    <!-- mensaje con condiciones -->
-                                </div>
-        
-                            </form>
-        
-                        </div>
-        
-        
-                    </div>
-                    <div class="modal-footer">               
-                            
-                        <div class="row text-center w-100">
-                                <button type="submit" class="btn btn-primary" > Enviar
-                                </button>
-                                <div class="modal-contraseña">
-                                
-                                <p> Olvidaste tu contraseña? <a href="xxx">Recuperar contraseña</a> </p>
-                                </div>
-                            </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
     </header>
 
 
-   
+
 
     <main>
 
-        <div class="Titulo">
-            
-            <div class="TituloRegistro">
-            <h1><b>Registrate acá !!</b></h1>
-            </div>
-            
-            <style>
-                
-                H1{
-                    padding: 50px;
-                    /* box-shadow: 5px 5px 5px 15px whitesmoke; */
-                    /* font-size: 160px; */
-                    text-align: center;
-                    margin-top: 80px;
-                    /* color: red;  */
-                    font-family: sans-serif;
-                    font-size: 270px;
-                    
-                }
-
-            </style>
-
-        </div>
-
         <div class="Registrate">
-            
+
             <div>
-                   
-                <h1>Convocados Qatar 2022</h1>
-        
-                <style>
 
-                    h1{
-                        text-align: left;
-                        color: rgb(238, 238, 152);
-                        margin-top: 75px;
-                        background-color: rgb(54, 97, 199);
-                        box-shadow: 220px 100px 200px 10px lightblue;
-                        /* padding: 30px; */
-                        font-size: 80px;
-                        text-align: center;
-                    }
-                    
-                </style>
-        
+                <h1 class="titulo">Registrate acá !!</h1>
+
+
             </div>
-        
-        <div class="container">
 
-            <form class="row g-3">
+            <div class="container">
 
-                <div class="DatosRegUser">
+                <form class="row g-3">
 
-                    <div class="col-sm-12 col-md-6 col-xl-6">
-                        
-                       
+                    <div class="DatosRegUser">
 
-                        <div class="Nombre">
-
-                            <style>
-                                h3{
-                                    color: rgb(67, 64, 64);
-                                    padding-top: 150px;
-                                    padding: 10px;
-                                }
-                            </style>
-
-                            <label for="inputEmail4" class="NomApp"><h3><b>Nombre y apellido</b></h3></label>
-                            <input type="Nombre" class="form-control" id="inputName">
-                        </div>
-    
-                    </div>
-    
-    
-                    <div class="Fecha">
-
-                        <style>
-                            label{
-                                padding: 10px;
-                            }
-                        </style>
-    
                         <div class="col-sm-12 col-md-6 col-xl-6">
-                            <label for="inputfechaNacimiento" class="form-label"><h3><b>Fecha de nacimiento</b></h3></label>
-                            <input type="fechaNacimiento" class="form-control" id="inputfechaNacimiento">
-                        </div>
-                        
-                    </div>
-    
-    
-    
-                    <div class="Edad">
 
-                        <style>
-                            h3{
-                                padding: 10px;
-                            }
-                        </style>
-    
+
+
+                            <div class="Nombre">
+
+
+                                <label for="inputEmail4" class="NomApp">
+                                    <h3><b>Nombre y apellido</b></h3>
+                                </label>
+                                <input type="Nombre" class="form-control" id="inputName">
+                            </div>
+
+                        </div>
+
+
+                        <div class="Fecha">
+
+
+                            <div class="col-sm-12 col-md-6 col-xl-6">
+                                <label for="inputfechaNacimiento" class="form-label">
+                                    <h3><b>Fecha de nacimiento</b></h3>
+                                </label>
+                                <input type="fechaNacimiento" class="form-control" id="inputfechaNacimiento">
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="Edad">
+
+
+                            <div class="col-sm-12 col-md-6 col-xl-6">
+                                <label for="inputEdad" class="form-label">
+                                    <h3><b>Edad</b></h3>
+                                </label>
+                                <input type="Edad" class="form-control" id="inputEdad">
+                            </div>
+
+                        </div>
+
+                        <div class="Correo">
+
+
+                            <div class="ccol-sm-12 col-md-6 col-xl-6">
+                                <label for="inputMail" class="form-label">
+                                    <h3><b>Correo electrónico</b></h3>
+                                </label>
+                                <input type="mail" class="form-control" id="inputmail">
+                            </div>
+
+                        </div>
+
+                        <div class="NomUser">
+
+
+                            <div class="col-sm-12 col-md-6 col-xl-6">
+                                <label for="inputPassword4" class="form-label">
+                                    <h3><b>Nombre de usuario</b></h3>
+                                </label>
+                                <input type="email" class="form-control" id="inputPassword4">
+                            </div>
+
+                        </div>
+
+                        <div class="Clave">
+
+
+                            <div class="col-sm-12 col-md-6 col-xl-6">
+                                <label for="inputPassword4" class="form-label">
+                                    <h3><b>Contraseña</b></h3>
+                                </label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="Lista">
+
                         <div class="col-sm-12 col-md-6 col-xl-6">
-                            <label for="inputEdad" class="form-label"><h3><b>Edad</b></h3></label>
-                            <input type="Edad" class="form-control" id="inputEdad">
-                        </div>
-    
-                    </div>
-                    
-                    <div class="Correo">
 
-                        <style>
-                            h3{
-                                padding: 10px;
-                            }
-                        </style>
-    
-                        <div class="ccol-sm-12 col-md-6 col-xl-6">
-                            <label for="inputMail" class="form-label"><h3><b>Correo electrónico</b></h3></label>
-                            <input type="mail" class="form-control" id="inputmail">
-                        </div>
-    
-                    </div>
-    
-                    <div class="NomUser">
-
-                        <style>
-                            h3{
-                                padding: 10px;
-                            }
-                        </style>
-    
-                        <div class="col-sm-12 col-md-6 col-xl-6">
-                            <label for="inputPassword4" class="form-label"><h3><b>Nombre de usuario</b></h3></label>
-                            <input type="email" class="form-control" id="inputPassword4">
-                        </div>
-    
-                    </div>
-                    
-                    <div class="Clave">
-
-                        <style>
-                            h3{
-                                padding: 10px;
-                            }
-                        </style>
-                        
-                        <div class="col-sm-12 col-md-6 col-xl-6">
-                            <label for="inputPassword4" class="form-label"><h3><b>Contraseña</b></h3></label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
-    
-                    </div>
-
-                </div>
-
-                
-                <div class="Lista">
-
-                    <div class="col-sm-12 col-md-6 col-xl-6">
-
-                       <!--Estilo del menú de (seleccionar paises convocados al mundial)-->
-                        <style>
-                            .form-select{
-                                color: gray;
-                                font-size: 15px;
-                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                background-color: burlywood;
-                                
-
-                            }
-                        </style>
-
-                        <div class="form-select">
 
                            
-                            
-                            <select class="form-select">
 
-                                <option selected><b>Seleccione su país...</b></option>
-                                
-                                <option>Qatar</option>
-                                <option>Alemania</option>
-                                <option>Dinamarca</option>
-                                <option>Brasil</option>
-                                <option>Francia</option>
-                                <option>Croacia</option>
-                                <option>España</option>
-                                <option>Serbia</option>
-                                <option>Inglaterra</option>
-                                <option>Suiza</option>
-                                <option>Holanda</option>
-                                <option>Argentina</option>
-                                <option>Irán</option>
-                                <option>Corea del Sur</option>
-                                <option>Japón</option>
-                                <option>Arabia Saudita</option>
-                                <option>Ecuador</option>
-                                <option>Uruguay</option>
-                                <option>Canadá</option>
-                                <option>Ghana</option>
-                                <option>Senegal</option>
-                                <option>Portugal</option>
-                                <option>Polonia</option>
-                                <option>Túnez</option>
-                                <option>Marruecos</option>
-                                <option>Camerún</option>
-                                <option>México</option>
-                                <option>Estados Unidos</option>
-                                <option>Gales</option>
-                                <option>Australia</option>
-                                <option>Costa Rica</option>
+
+
+                                <select class="form-select">
+
+                                    <option selected><b>Seleccione su país...</b></option>
+
+                                    <option>Qatar</option>
+                                    <option>Alemania</option>
+                                    <option>Dinamarca</option>
+                                    <option>Brasil</option>
+                                    <option>Francia</option>
+                                    <option>Croacia</option>
+                                    <option>España</option>
+                                    <option>Serbia</option>
+                                    <option>Inglaterra</option>
+                                    <option>Suiza</option>
+                                    <option>Holanda</option>
+                                    <option>Argentina</option>
+                                    <option>Irán</option>
+                                    <option>Corea del Sur</option>
+                                    <option>Japón</option>
+                                    <option>Arabia Saudita</option>
+                                    <option>Ecuador</option>
+                                    <option>Uruguay</option>
+                                    <option>Canadá</option>
+                                    <option>Ghana</option>
+                                    <option>Senegal</option>
+                                    <option>Portugal</option>
+                                    <option>Polonia</option>
+                                    <option>Túnez</option>
+                                    <option>Marruecos</option>
+                                    <option>Camerún</option>
+                                    <option>México</option>
+                                    <option>Estados Unidos</option>
+                                    <option>Gales</option>
+                                    <option>Australia</option>
+                                    <option>Costa Rica</option>
+                          
+
+                            </select>
+
                         </div>
-    
-                        </select>
-    
+
                     </div>
 
+
+
+                </form>
+
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" id="BotonReg">Registrate ya !!</button>
                 </div>
 
-                
-
-            </form>
-                
-
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary" id="BotonReg">Registrate ya !!</button>
             </div>
 
-        </div>
-                
-        
+
 
 
 
 
     </main>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-    </script>
+    
 
 
-</body>
-<footer>
-    <div class="container-fluid footer" id="fondoimagen">
-        <div clas="row align-items-center ">
-            <div class="col align-items-start">
-                <img src="../imagenes/catar 2022.jpg">
+
+    <footer>
+        <div class="container-fluid footer" id="fondoimagen">
+
+            <div clas="row align-items-center ">
+
+                <div class="col align-items-start">
+                    <img src="../imagenes/catar 2022.jpg">
+                </div>
+
+            </div>
+
+            <div class="col-3 text-center" id="autor">
+                <p><b>© Derechos Reservados</b></p>
+                <p>Grupo 8</p>
+                <p>2022</p>
+            </div>
+
+
+
+            <div class="grupo">
+
+                <ul class="list-group">
+
+                    <li class="list-group-item  ">
+                        <p>Arroyo Flavia</p>
+                        <a href=""><img class="logo" src="../imagenes/github.png"></a>
+                    </li>
+
+                    <li class="list-group-item  ">
+                        <p>Ale Peña</p>
+                        <!--Poner direccion d GitHub en href-->
+                        <a href=""><img class="logo" src="../imagenes/github.png"></a>
+                    </li>
+
+                    <li class="list-group-item ">
+                        <p>Bertero Leandro</p>
+                        <a href="https://github.com/LeaBertero?tab=repositories" target="_blank"><img class="logo"
+                                src="../imagenes/github.png"></a>
+                    </li>
+
+
+                    <li class="list-group-item ">
+                        <p>Ramos Ruben</p>
+                        <a href=""><img class="logo" src="../imagenes/github.png"></a>
+                    </li>
+
+                </ul>
             </div>
         </div>
 
-        <div class="col-3 text-center" id="autor">
-
-            <style>
-                p{
-                    color: blanchedalmond;
-                    padding: 10px;
-                    padding-top: 2px;
-                    text-align: left;
-                }
-            </style>
-
-            <p> © Derechos Reservados </p>
-            <p>grupo 8</p>
-            <p>2022</p>
-        </div>
-
-
-        <div class="grupo">
-
-            <style>
-                p{
-                    color: black;
-                    text-align: left;
-                }
-            </style>
-
-            <ul class="list-group">
-                <li class="list-group-item  ">
-                    <p>Arroyo Flavia</p>
-                    <a href=""><img class="logo" src="../imagenes/github.png"></a>
-                </li>
-
-                <li class="list-group-item  ">
-                    <p>Ale Peña</p>
-                    <!--Poner direccion d GitHub en href-->
-                    <a href=""><img class="logo" src="imagenes/github.png"></a>
-                </li>
-
-                <li class="list-group-item ">
-                    <p>Bertero Leandro</p>
-                    <a href="https://github.com/LeaBertero?tab=repositories" target="_blank"><img class="logo"
-                            src="../imagenes/github.png"></a>
-                </li>
-
-                <li class="list-group-item ">
-                    <p>Carron Ayelen</p>
-                    <a href=""><img class="logo" src="../imagenes/github.png"></a>
-                </li>
-                
-                <li class="list-group-item ">
-                    <p>Ramos Ruben</p>
-                    <a href=""><img class="logo" src="../imagenes/github.png"></a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-
-
-</footer>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+</body>
 
 </html>

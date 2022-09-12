@@ -12,14 +12,6 @@ h1{
     margin: .5rem;
 
 }
-
-
-
-
-
-
-
-
 main{
     background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
     background-size: cover;
@@ -29,9 +21,18 @@ main{
     object-fit: fill;
 }
 
-#TituloSeleccion{
+.contenedor{
+    width: 70%;
+}
+
+
+.tituloCentral{
+    width: 60%;
+    color: white;
     text-align: center;
 }
+
+
 
 
 /*header*/
@@ -41,18 +42,19 @@ main{
 }
 .logo{
     max-width: 100px;
-    max-height: 100px;
+  
 }
 #link{
+    width: 90%;
     border-color: black;
     background-color: rgb(82, 82, 249);
     color:#fefefe;
-    font-size: 120px;
+   
 }
-/* #link:hover{
-    background-color: rgb(32, 9, 242);
+ #link:hover{
+    background-color: rgb(193, 188, 245);
 
-} */
+} 
 .navbar .container{
     align-content: center;
     flex-direction: column;
@@ -60,23 +62,10 @@ main{
     flex-wrap: wrap;
     height: 150px;
 }
-.nav-link{
-    font-family: 'Kalam', cursive;
-    font-size: 20px;
-    
 
-}
-.acceso{
-    width: 20%;
-}
 
-.titulo{
-    font-family: 'Kalam', cursive;
-    
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
+
+
 
 /* jugadores*/
 .row{
@@ -135,6 +124,7 @@ main{
     flex-direction: column;
 }
 .footer{
+  
     justify-content: space-between;
     background-color:#fefefe;
     display: flex;
@@ -154,9 +144,12 @@ main{
 
  /*media adaptar al tamaño lg*/
 
- @media only screen and (min-width:890px) {
-    .titulo{
-        width: 100%;
+ @media only screen and (min-width:768px) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .tituloCentral{
+        width: 80%;
     }
     
     

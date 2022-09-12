@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Mochiy+Pop+One & display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
 
 
 
@@ -13,23 +12,18 @@
     margin-top: 120;
  }
 
-h1,h2{
-    color:rgb(225, 225, 238);
-    
-    
-}
 
-h3 {
+
+
+
+.aling {
+    text-align: center;
     padding-bottom: 10px;
     color:rgb(231, 212, 41);
     font-family: 'Mochiy Pop One', sans-serif;
     text-align: center;
     margin: auto;
     font-weight: 700;
-}
-
-.aling {
-    text-align: center;
 } 
 
 .titulo-seleccion {

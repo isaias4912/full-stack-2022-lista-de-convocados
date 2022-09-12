@@ -9,61 +9,62 @@
     background-color: rgb(15, 175, 190);
 
 } */
-    
- 
-/* Diseño del boton de registrarse*/
-#BotonReg{
-padding:15px;
-font-size: 14px;
-/* text-align: right; */
-font-family: var(--bs-body-font-family);
-background-color: orangered;
-box-shadow: 2px 2px 12px 8px whitesmoke;
-margin-top: 16px;
-margin-bottom: 1cm;
-    
-}  
-
-
-#color{
-    color: green;
-    padding: -35px;
-    background-color: azure;
+.Registrate{
+    padding-top: 200px;
 }
+.titulo {
+    text-align: left;
+    color: rgb(238, 238, 152);
+    margin-top: 75px;
+    background-color: rgb(54, 97, 199);
+    box-shadow: 220px 100px 200px 10px lightblue;
+    /* padding: 30px; */
+    font-size: 40px;
+    text-align: center;
+}
+.form-select{
+    color: gray;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+    
+
+}
+
+.nombre {
+    color: rgb(67, 64, 64);
+    padding-top: 150px;
+    padding: 10px;
+}
+
+/* Diseño del boton de registrarse*/
+#BotonReg {
+    padding: 15px;
+    font-size: 14px;
+    /* text-align: right; */
+    font-family: var(--bs-body-font-family);
+    background-color: orangered;
+    box-shadow: 2px 2px 12px 8px whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 1cm;
+
+}
+
+
+
 /*Responsive*/
 /*Diseño y tamaño de las cajas de input (TextBox)*/
-    /* .container{
+/* .container{
         width:800px ;
         text-align: left;
         padding: 5px;
         color: black;
     } */
-        
-    @media only screen and(min-width:576px) {
-    
-        .container {
-            width: 300px;
-            box-sizing: border-box;
-        }
-    }   
-    
-        
-        
-        
-        
-        
-        
-        
-    
-       
-       
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+@media only screen and(min-width:576px) {
+
+    .container {
+        width: 300px;
+        box-sizing: border-box;
+    }
+}
