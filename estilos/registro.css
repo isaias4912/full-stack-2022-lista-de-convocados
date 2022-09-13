@@ -23,10 +23,10 @@
     text-align: center;
 }
 .form-select{
-    color: gray;
+    color: lightyellow;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: burlywood;
+    background-color: lightskyblue;
     
 
 }
@@ -41,9 +41,9 @@
 #BotonReg {
     padding: 15px;
     font-size: 14px;
-    /* text-align: right; */
+    /* text-align: center;  */
     font-family: var(--bs-body-font-family);
-    background-color: orangered;
+    background-color: rgb(49, 49, 159);
     box-shadow: 2px 2px 12px 8px whitesmoke;
     margin-top: 16px;
     margin-bottom: 1cm;
@@ -67,4 +67,27 @@
         width: 300px;
         box-sizing: border-box;
     }
+}
+
+/*Input controles*/
+
+.form-control{
+    background-color: lightskyblue;
+    font-size: 18px;
+    
+}
+
+/*Nombre del titulo de los input registro del usuario*/
+.col-sm-12{
+    /* background-color: lightblue; */
+    color: cadetblue;
+    
+}
+
+/*Logo Afa*/
+
+.logo{
+    /* height:10px ; */
+    width:20px ;
+    margin-left: 45px;
 }
