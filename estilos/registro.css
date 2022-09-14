@@ -1,70 +1,93 @@
-#Registro{
-    margin-top: 100px;
+/**/
+/* #Registro{
+    margin-top: 80px;
     font-size: 25px;
     font-weight: bold;
     text-align: left;
+    color: whitesmoke; 
+    margin-top: 3cm ;
+    background-color: rgb(15, 175, 190);
+
+} */
+.Registrate{
+    padding-top: 200px;
 }
-    
-
-
-#Titulo{
+.titulo {
+    text-align: left;
+    color: rgb(238, 238, 152);
+    margin-top: 75px;
+    background-color: rgb(54, 97, 199);
+    box-shadow: 220px 100px 200px 10px lightblue;
+    /* padding: 30px; */
+    font-size: 40px;
     text-align: center;
-    padding-top: 40px;
-    font-weight: bold;
-    font-size: 60px;
-    background-color: blue;
-    box-shadow: 5px 150px 1800px 200px blue;
 }
+.form-select{
+    color: lightyellow;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightskyblue;
     
-    #ConvoxTexto{
-        text-align: center;
-        font-size: 60px;
-        box-shadow: 10px 10px 10px 10px rgb(78, 101, 182);
+
+}
+
+.nombre {
+    color: rgb(67, 64, 64);
+    padding-top: 150px;
+    padding: 10px;
+}
+
+/* Diseño del boton de registrarse*/
+#BotonReg {
+    padding: 15px;
+    font-size: 14px;
+    /* text-align: center;  */
+    font-family: var(--bs-body-font-family);
+    background-color: rgb(49, 49, 159);
+    box-shadow: 2px 2px 12px 8px whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 1cm;
+
+}
+
+
+
+/*Responsive*/
+/*Diseño y tamaño de las cajas de input (TextBox)*/
+/* .container{
+        width:800px ;
+        text-align: left;
+        padding: 5px;
+        color: black;
+    } */
+
+@media only screen and(min-width:576px) {
+
+    .container {
+        width: 300px;
+        box-sizing: border-box;
     }
-    
+}
 
+/*Input controles*/
 
-#BotonReg{
-padding:15px;
-font-size: 14px;
-text-align: center;
-font-family: var(--bs-body-font-family);
-background-color: red;
-box-shadow: 2px 2px 12px 8px black;
-margin-top: 8%;
-margin-bottom: 5cm;
+.form-control{
+    background-color: lightskyblue;
+    font-size: 18px;
     
-}  
+}
 
-    .container{
-        width:700px ;
-    }
-        
-    @media only screen and(min-width:576px) {
+/*Nombre del titulo de los input registro del usuario*/
+.col-sm-12{
+    /* background-color: lightblue; */
+    color: cadetblue;
     
-        .container {
-            width: 300px;
-            box-sizing: border-box;
-        }
-    }   
-    
-        
-        
-        
-        
-        
-        
-        
-    
-       
-       
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
+}
+
+/*Logo Afa*/
+
+.logo{
+    /* height:10px ; */
+    width:20px ;
+    margin-left: 45px;
+}
