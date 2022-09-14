@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Kalam', cursive;
     
@@ -16,6 +18,7 @@ main{
     background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
     background-size: cover;
     background-repeat: no-repeat;
+   
     width: 100vw;
     background-position: center;
     object-fit: fill;
@@ -25,20 +28,6 @@ main{
     width: 70%;
 }
 
-/*Estilo para el titulo principal*/
-#PrimerTitulo{
-    color: linen;
-    font-size: 35px;
-    /* text-decoration-line:overline; */
-    /* text-decoration: yellow; */
-    text-shadow: 2px 4px blue;
-}
-
-.logo{
-    /* height:10px ; */
-    width:20px ;
-    margin-left: 45px;
-}
 
 .tituloCentral{
     width: 60%;
@@ -54,7 +43,7 @@ main{
     background-color: rgb(112, 175, 231);
     text-align: left;
 }
-.logo{
+.logog{
     max-width: 100px;
   
 }
