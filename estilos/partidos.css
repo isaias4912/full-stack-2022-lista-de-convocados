@@ -13,7 +13,11 @@
  }
 
 
-
+ .logo{
+    /* height:10px ; */
+    width:20px ;
+    margin-left: 45px;
+}
 
 
 .aling {
@@ -25,6 +29,17 @@
     margin: auto;
     font-weight: 700;
 } 
+
+
+/*Estilo para el titulo principal*/
+#PrimerTitulo{
+    color: linen;
+    font-size: 35px;
+    /* text-decoration-line:overline; */
+    /* text-decoration: yellow; */
+    text-shadow: 2px 4px blue;
+}
+
 
 .titulo-seleccion {
     color: rgb(187, 187, 207);

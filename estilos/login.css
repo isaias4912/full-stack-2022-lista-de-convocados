@@ -1,3 +1,18 @@
 .plantilla{
     background-color: #b8e6f6;
 }
+
+.logo{
+    /* height:10px ; */
+    width:20px ;
+    margin-left: 45px;
+}
+
+/*Estilo para el titulo principal*/
+#PrimerTitulo{
+    color: linen;
+    font-size: 35px;
+    /* text-decoration-line:overline; */
+    /* text-decoration: yellow; */
+    text-shadow: 2px 4px blue;
+}

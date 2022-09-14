@@ -22,11 +22,20 @@
     font-size: 40px;
     text-align: center;
 }
+/*Estilo para el titulo principal*/
+#PrimerTitulo{
+    color: linen;
+    font-size: 35px;
+    /* text-decoration-line:overline; */
+    /* text-decoration: yellow; */
+    text-shadow: 2px 4px blue;
+}
+
 .form-select{
     color: lightyellow;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: lightskyblue;
+    background-color: lightgoldenrodyellow;
     
 
 }
@@ -50,6 +59,43 @@
 
 }
 
+/*INICIO - Diseños de inmput para el usuario(Efectos de sombra)*/
+#inputName{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue;
+}
+
+#inputfechaNac{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue;
+}
+
+#inputEdad{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue;
+}
+
+#inputmail{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue;
+}
+
+#inputUser{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue; 
+}
+
+#inputClave{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue; 
+}
+
+#FormListaPaises{
+    box-shadow: 2px 2px 10px 8px;
+    color: lightblue; 
+    
+}
+/*FIN - Diseños de inmput para el usuario(Efectos de sombra)*/
 
 
 /*Responsive*/
@@ -74,6 +120,7 @@
 .form-control{
     background-color: lightskyblue;
     font-size: 18px;
+    
     
 }
 
