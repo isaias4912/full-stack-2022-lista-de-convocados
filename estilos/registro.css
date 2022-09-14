@@ -14,13 +14,14 @@
 }
 .titulo {
     text-align: left;
-    color: rgb(238, 238, 152);
-    margin-top: 75px;
-    background-color: rgb(54, 97, 199);
+    color: blue;
+    margin-top: 6px;
+    background-color:lightskyblue;
     box-shadow: 220px 100px 200px 10px lightblue;
-    /* padding: 30px; */
-    font-size: 40px;
+    padding-top: 10px;
+    font-size: 60px;
     text-align: center;
+    text-shadow: 2px 4px lightgoldenrodyellow;
 }
 /*Estilo para el titulo principal*/
 #PrimerTitulo{
