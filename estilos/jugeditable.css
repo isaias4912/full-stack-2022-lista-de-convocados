@@ -1,0 +1,44 @@
+/* jugadores*/
+
+
+main{
+    padding-top: 350px;
+}
+.nuevo{
+    font-size: 30px;
+    width: 30%;
+}
+.row{
+    align-content: center;
+}
+.card{
+    position: relative;
+   padding: 2rem;
+   border-radius: 5%;
+   width: 300px;
+   margin:2rem;
+
+}
+.eliminarjug{
+    border: transparent;
+    background-color: transparent;
+}
+
+ .jugCont{
+    justify-content: space-around;
+
+ }
+ 
+.card-img-top{
+    height: 300px;
+}
+
+.botonesedicion{
+    position: absolute;
+    top:0;
+    right: 15px;
+    
+}
+.botonesedicion a{
+    color:rgb(1, 1, 1);
+}

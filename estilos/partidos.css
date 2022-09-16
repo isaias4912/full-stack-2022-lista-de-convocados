@@ -1,19 +1,27 @@
-
+main{
+    padding-top: 200px;
+}
 
 
 
 .contener-fluid{
     color:rgb(240, 232, 232);
-    background: size 100px;
+    
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding: 50px 0 200px 0;
     background-image: url("../imagenes/imagenes/fondo10.jpg");
-    margin-top: 120;
+   
+    background-position-x: center ;
+    background-position-y: center;
  }
 
 
-
+ .logo{
+    /* height:10px ; */
+    width:20px ;
+    margin-left: 45px;
+}
 
 
 .aling {
@@ -25,6 +33,17 @@
     margin: auto;
     font-weight: 700;
 } 
+
+
+/*Estilo para el titulo principal*/
+#PrimerTitulo{
+    color: linen;
+    font-size: 35px;
+    /* text-decoration-line:overline; */
+    /* text-decoration: yellow; */
+    text-shadow: 2px 4px blue;
+}
+
 
 .titulo-seleccion {
     color: rgb(187, 187, 207);

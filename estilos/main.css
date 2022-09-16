@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Kalam', cursive;
     
@@ -16,8 +18,10 @@ main{
     background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
     width: 100vw;
-    background-position: center;
+    background-position-x: center;
+    background-position-y:center ;
     object-fit: fill;
 }
 
@@ -40,7 +44,7 @@ main{
     background-color: rgb(112, 175, 231);
     text-align: left;
 }
-.logo{
+.logog{
     max-width: 100px;
   
 }
@@ -85,6 +89,10 @@ main{
     color:blue;
    
    
+ }
+ .jugCont{
+    justify-content: space-around;
+
  }
  
 .card-img-top{

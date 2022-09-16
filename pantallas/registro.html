@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/main.css">
-    <link rel="stylesheet" href="../estilos/login.css">
+  
     <link rel="stylesheet" href="../estilos/registro.css">
 
 
@@ -25,13 +25,13 @@
        
         
         <nav class="navbar navbar-expand-md  fixed-top " id="color">
-            <div class="logo">
-                <img  src="../imagenes/afa.png"></a>
-    
+            <div class="logot">
+                <img src="../imagenes/afa.png"></a>
+
             </div>
-           
+
             <div class="container-fluid contenedor">
-               
+
 
                 <div class="tituloCentral">
                     <h1>Convocatoria Mundial Qatar 2022</h1>
@@ -56,8 +56,8 @@
                             <a class=" btn btn-outline" id="link" href="grupos.html">Grupos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline" type="submit" id="link" 
-                                href="login.html">Iniciar sesión
+                            <a class="btn btn-outline" type="submit" id="link" href="login.html">Iniciar
+                                sesión
                             </a>
 
                         </li>
@@ -70,7 +70,7 @@
                     </ul>
 
                 </div>
-                
+
 
             </div>
 
@@ -86,9 +86,9 @@
 
         <div class="Registrate">
 
-            <div>
-                <h1 class="titulo">⬇⬇⬇ Completá tus datos aquí.. ⬇⬇⬇</h1>
-            </div>
+            
+            <div class="titulo">⬇⬇⬇ COMPLETÁ CON TUS DATOS ACÁ.. ⬇⬇⬇</div>
+            
 
             <div class="container">
 
@@ -99,8 +99,8 @@
                         <div class="col-sm-12 col-sm-8 col-xl-4">
 
                             <div class="Nombre">
-                                <label for="inputEmail4" class="NomApp">
-                                    <h5><b>Nombre y apellido</b></h5>
+                                <label for="inputEmail4" class="form-label">
+                                    <h5><b>NOMBRE Y APELLIDO</b></h5>
                                 </label>
                                 <input type="Nombre" class="form-control" id="inputName">
                             </div>
@@ -112,9 +112,9 @@
 
                             <div class="col-sm-12 col-sm-8 col-xl-4">
                                 <label for="inputfechaNacimiento" class="form-label">
-                                    <h5><b>Fecha de nacimiento</b></h5>
+                                    <h5><b>FECHA DE NACIMIENTO</b></h5>
                                 </label>
-                                <input type="fechaNacimiento" class="form-control" id="inputfechaNacimiento">
+                                <input type="fechaNacimiento" class="form-control" id="inputfechaNac">
                             </div>
 
                         </div>
@@ -125,7 +125,7 @@
 
                             <div class="col-sm-12 col-sm-8 col-xl-4">
                                 <label for="inputEdad" class="form-label">
-                                    <h5><b>Edad</b></h5>
+                                    <h5><b>EDAD</b></h5>
                                 </label>
                                 <input type="Edad" class="form-control" id="inputEdad">
                             </div>
@@ -137,7 +137,7 @@
 
                             <div class="col-sm-12 col-sm-8 col-xl-4">
                                 <label for="inputMail" class="form-label">
-                                    <h5><b>Correo electrónico</b></h5>
+                                    <h5><b>E-MAIL</b></h5>
                                 </label>
                                 <input type="mail" class="form-control" id="inputmail">
                             </div>
@@ -148,21 +148,20 @@
 
                             <div class="col-sm-12 col-sm-8 col-xl-4">
                                 <label for="inputPassword4" class="form-label">
-                                    <h5><b>Nombre de usuario</b></h5>
+                                    <h5><b>NOMBRE DE USUARIO</b></h5>
                                 </label>
-                                <input type="email" class="form-control" id="inputPassword4">
+                                <input type="email" class="form-control" id="inputUser">
                             </div>
 
                         </div>
 
                         <div class="Clave">
 
-
-                            <div class="col-sm-12 col-sm-8 col-xl-4">
+                            <div class="col-sm-12   col-sm-8 col-xl-4">
                                 <label for="inputPassword4" class="form-label">
-                                    <h5><b>Contraseña</b></h5>
+                                    <h5><b>CONTRASEÑA</b></h5>
                                 </label>
-                                <input type="password" class="form-control" id="inputPassword4">
+                                <input type="password" class="form-control" id="inputClave">
                             </div>
 
                         </div>
@@ -174,9 +173,9 @@
                     
                         <div class="col-sm-12 col-sm-8 col-xl-4">
                                       
-                            <select class="form-select">
+                            <select class="form-select" id="FormListaPaises">
                     
-                                <option selected><b>Seleccione su país...</b></option>
+                                <option selected><b>SELECCIONE SU PAÍS...</b></option>
                     
                                 <option>Qatar</option>
                                 <option>Alemania</option>
@@ -222,7 +221,7 @@
 
 
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary" id="BotonReg"><b>👉👉 Finalizar registro 👈👈</b></button>
+                    <button type="submit" class="btn btn-primary" id="BotonReg" onclick="registro()"><b>👉👉 Finalizar registro 👈👈</b></button>
                 </div>
 
             </div>
@@ -262,25 +261,25 @@
 
                     <li class="list-group-item  ">
                         <p>Arroyo Flavia</p>
-                        <a href=""><img class="logo" src="../imagenes/github.png"></a>
+                        <a href=""><img class="logog" src="../imagenes/github.png"></a>
                     </li>
-
-                    <li class="list-group-item  ">
-                        <p>Ale Peña</p>
-                        <!--Poner direccion d GitHub en href-->
-                        <a href=""><img class="logo" src="../imagenes/github.png"></a>
-                    </li>
-
-                    <li class="list-group-item ">
+	  <li class="list-group-item ">
                         <p>Bertero Leandro</p>
-                        <a href="https://github.com/LeaBertero?tab=repositories" target="_blank"><img class="logo"
+                        <a href="https://github.com/LeaBertero?tab=repositories" target="_blank"><img class="logog"
                                 src="../imagenes/github.png"></a>
                     </li>
 
+                    <li class="list-group-item  ">
+                        <p>Peña Alejandra</p>
+                        <!--Poner direccion d GitHub en href-->
+                        <a href=""><img class="logog" src="../imagenes/github.png"></a>
+                    </li>
+
+                  
 
                     <li class="list-group-item ">
                         <p>Ramos Ruben</p>
-                        <a href=""><img class="logo" src="../imagenes/github.png"></a>
+                        <a href=""><img class="logog" src="../imagenes/github.png"></a>
                     </li>
 
                 </ul>
@@ -292,6 +291,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
+    <script src="../js/logueo.js"></script>
 </body>
 
 </html>
