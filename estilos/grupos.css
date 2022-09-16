@@ -1,12 +1,48 @@
 main{
-    padding-top: 200px;
+    padding-top: 300px;
+    background-image: url(../imagenes/imagenes/fondo10.jpg);
+    height: 1800px;
+}
+.container h1{
+    color:#fefefe;
 }
 
-/*Estilo para el titulo principal*/
-#PrimerTitulo{
-    color: linen;
-    font-size: 35px;
-    /* text-decoration-line:overline; */
-    /* text-decoration: yellow; */
-    text-shadow: 2px 4px blue;
+.grupoMundial{ 
+    background-color:aqua; 
+    width:40%;
+
+    margin: 2rem;
+    padding:2px;
+    float:left;
+    flex-direction: column;
+   
+}
+.grupoMundial:hover{
+    background-color: rgb(90, 79, 243);
+ 
+}
+
+
+.bandera{
+    display:flex;
+    margin:5px;
+    padding:0px;
+    border-style: outset;
+
+  
+}
+
+
+.bandera img{
+    height:35px;
+    width:35px;
+    padding:8px;
+    margin:0px;
+
+}  
+
+.PaisGrupoC {
+    font-family:sans-serif;
+    justify-content: center;
+
 }
