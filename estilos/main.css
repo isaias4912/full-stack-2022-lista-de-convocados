@@ -89,6 +89,10 @@ main{
    
    
  }
+ .jugCont{
+    justify-content: space-around;
+
+ }
  
 .card-img-top{
     height: 300px;

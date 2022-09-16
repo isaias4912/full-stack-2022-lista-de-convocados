@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: 'Poppins', sans-serif;*/
+}
+
+.titulo-futbol{
+    color:rgb(71, 19, 19);
+    border-style:outset;
+    margin:5rem 0;
+}
+.partidos{
+    
+    flex-direction: column;
+}
+.partido{
+    position: relative;
+    background-color: #f6f7b7;
+    padding:3rem 0;
+    margin-bottom: 2rem;
+    height: 300px;
+    border-radius: 20px;
+}
+.partido img{
+    width: 7rem;
+    border-radius: 30px;
+}
+.fecha{
+    font-size: 20px;
+   
+
+}
+.nuevo{
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.contrincantes{
+    
+    justify-content:space-evenly;
+    align-items: center;
+
+
+}
+.botonesedicion{
+    position: absolute;
+    top:0;
+    right: 15px;
+    
+}
+.eliminar{
+    border: transparent;
+    background-color: transparent;
+}
+.botonesedicion a{
+    color:rgb(1, 1, 1);
+}
+
+@media screen and (min-width:500px) {
+    .partido{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:1000px) {
+    .partido{
+        width: 40%;
+        margin-right: 2rem;
+        
+    }
+    .partidos{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .nuevo{
+        width: 40%;
+        margin: 2rem;
+    }
+    
+}
