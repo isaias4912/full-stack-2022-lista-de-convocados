@@ -41,14 +41,100 @@
     <main>
 
         <div class="container">
-            <h1>Ingresar Partido</h1>
-            <form action="">
+            
+            <form action="" class="formulario">
+
+                <h1>Ingresar Datos del Nuevo Partido</h1>
+                <div class="contearg">
+                    <img src="../imagenes/argentina.png" alt="">
+                    <div class="texto">
+                        <h2 class="tituloP">
+                           Argentina
+                        </h2>
+                    </div>
+
+                </div>
                 <div class="selectbox">
-                    <div class="select active" id="select">
+                    <div class="select" id="select">
                         <div class="contenido-select">
-                            <h3 class="tituloP">Selecciona Pais</h3>
+                            <h3 class="tituloP">Selecciona Pais Contrincante</h3>
                         </div>
                         <i class="bi bi-chevron-down"></i>
+
+                    </div>
+                    <div class="opciones " id="opciones">
+                        <a href="#" class="opcion">
+                            <div class="contenido-opcion">
+                                <img src="../imagenes/estados-unidos-de-america.png" alt="">
+                                <div class="texto">
+                                    <h2 class="tituloP">
+                                        Estados Unidos
+                                    </h2>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <a href="#" class="opcion">
+                            <div class="contenido-opcion">
+                                <img src="../imagenes/paises-bajos.png" alt="">
+                                <div class="texto">
+                                    <h2 class="tituloP">
+                                        Paises Bajos
+                                    </h2>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <a href="#" class="opcion">
+                            <div class="contenido-opcion">
+                                <img src="../imagenes/iran.png" alt="">
+                                <div class="texto">
+                                    <h2 class="tituloP">
+                                        Iran
+                                    </h2>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <a href="#" class="opcion">
+                            <div class="contenido-opcion">
+                                <img src="../imagenes/iran.png" alt="">
+                                <div class="texto">
+                                    <h2 class="tituloP">
+                                        Iran
+                                    </h2>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <a href="#" class="opcion">
+                            <div class="contenido-opcion">
+                                <img src="../imagenes/iran.png" alt="">
+                                <div class="texto">
+                                    <h2 class="tituloP">
+                                        Iran
+                                    </h2>
+                                </div>
+
+                            </div>
+
+                        </a>
+                        <a href="#" class="opcion">
+                            <div class="contenido-opcion">
+                                <img src="../imagenes/iran.png" alt="">
+                                <div class="texto">
+                                    <h2 class="tituloP">
+                                        Iran
+                                    </h2>
+                                </div>
+
+                            </div>
+
+                        </a>
 
                     </div>
 
@@ -56,7 +142,18 @@
 
 
 
+
                 </div>
+                <input type="hidden" name="pais" id="inputSelect" value="">
+                <label for="dia">Indicar dia</label>
+
+                <input type="date" id="dia" value="16-08-2022">
+
+                <label for="hora">Indicar Hora</label>
+                <input type="time" name="hora" id="hora">
+                <label for="estadio">indicar Estadio</label>
+                <input type="text" id="estadio">
+                <a href="partidoseditable.html"id="custom-btn">Registrar Partido</a>
 
 
 
@@ -137,6 +234,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
+    <script src="../js/partidos.js"></script>
 </body>
 
 </html>

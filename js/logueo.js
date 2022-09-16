@@ -51,6 +51,18 @@ function eliminarP(){
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 const wrapper = document.querySelector(".wrapper");
          const fileName = document.querySelector(".file-name");
          const defaultBtn = document.querySelector("#default-btn");
@@ -61,7 +73,7 @@ const wrapper = document.querySelector(".wrapper");
          function defaultBtnActive(){
            defaultBtn.click();
          }
-         defaultBtn.addEventListener("change", function(){
+         defaultBtn.addEventListener("change",function(){
            const file = this.files[0];
            if(file){
              const reader = new FileReader();
@@ -82,6 +94,14 @@ const wrapper = document.querySelector(".wrapper");
            }
          });
 
+
+
+  /*
+  funcionalidad eleccion paises partidos
+
+  */
+
+ 
 
 
 
