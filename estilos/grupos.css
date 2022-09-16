@@ -1,0 +1,45 @@
+
+ .contenedorpaises{
+    margin-top: 250px;
+ }
+
+
+.grupoMundial{ 
+    background-color:aqua; 
+    width:40%;
+
+    margin: 2rem;
+    padding:2px;
+    float:left;
+    flex-direction: column;
+   
+}
+.grupoMundial:hover{
+    background-color: rgb(98, 161, 43);
+ 
+}
+
+
+.bandera{
+    display:flex;
+    margin:5px;
+    padding:0px;
+    border-style: outset;
+
+  
+}
+
+
+.bandera img{
+    height:35px;
+    width:35px;
+    padding:8px;
+    margin:0px;
+
+}  
+
+.PaisGrupoC {
+    font-family:sans-serif;
+    justify-content: center;
+
+}
