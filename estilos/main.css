@@ -20,7 +20,8 @@ main{
     background-repeat: no-repeat;
     object-fit: cover;
     width: 100vw;
-    background-position: center;
+    background-position-x: center;
+    background-position-y:center ;
     object-fit: fill;
 }
 
