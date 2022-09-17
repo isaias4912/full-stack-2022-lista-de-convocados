@@ -20,7 +20,7 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 200px 0 200px 0;
-    width: 100vw;
+    width: 100%;
     background-position: center;
     object-fit: fill;
 }
@@ -54,7 +54,7 @@ main{
     background-image: url(../imagenes/cancha.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     background-position: center;
     object-fit: fill;
 

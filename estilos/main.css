@@ -16,13 +16,14 @@ h1{
 }
 main{
     background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+ 
     object-fit: cover;
-    width: 100vw;
-    background-position-x: center;
-    background-position-y:center ;
-    object-fit: fill;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    
+   
 }
 
 .contenedor{
@@ -82,6 +83,9 @@ main{
    margin:2rem;
 
 }
+.card img{
+    
+}
 .card:hover{
     border-color: blue;
     font-size: 20px;
@@ -105,18 +109,21 @@ main{
 }
 .carousel-item{
     box-sizing: border-box;
-    height: 400px;
+    
+    background-size: 100%;
     object-fit: contain;
 }
 /*footer*/
 
 #fondoimagen{
     background-image: url(../imagenes/cancha.jpg);
+    
     background-size: cover;
+    
     background-repeat: no-repeat;
-    width: 100vw;
-    background-position: center;
-    object-fit: fill;
+    
+    background-position: center center;
+   
 
 }
 .list-group-item{
@@ -138,6 +145,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 300px;
     
 }
 #autor{

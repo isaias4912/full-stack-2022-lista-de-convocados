@@ -1,19 +1,46 @@
 main{
-    padding-top: 300px;
-    background-image: url(../imagenes/imagenes/fondo10.jpg);
-    height: 1800px;
+    padding-top: 200px;    
+   
 }
-.container h1{
+
+.contenGrupos{
+    
     color:#fefefe;
+  
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../imagenes/imagenes/fondo10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10rem;
+  
+    
+     
+    background-position: center;
+    
+   
+   
+
 }
+.contenGrupos h1{
+    display: block;
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+}
+
 
 .grupoMundial{ 
-    background-color:aqua; 
-    width:40%;
+    background-color:rgb(2, 65, 72); 
+    width:90%;
+    margin-bottom: 2rem;
+    align-content: center;
 
-    margin: 2rem;
+   
     padding:2px;
-    float:left;
+   
     flex-direction: column;
    
 }
@@ -41,8 +68,30 @@ main{
 
 }  
 
-.PaisGrupoC {
-    font-family:sans-serif;
-    justify-content: center;
-
+@media screen and (min-width:576px) {
+    .grupoMundial{
+        width: 70%;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .contenGrupos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .grupoMundial{
+        width: 40%;
+        margin-right: 2rem;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    
+    .grupoMundial{
+        width: 20%;
+        
+    }
+    
 }
