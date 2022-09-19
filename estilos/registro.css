@@ -10,31 +10,54 @@
 
 } */
 .Registrate{
-    padding-top: 200px;
+    padding-top: 250px;
+    
 }
 .titulo {
     text-align: left;
-    color: rgb(238, 238, 152);
-    margin-top: 75px;
-    background-color: rgb(54, 97, 199);
+    color: blue;
+    margin-top: 6px;
+    background-color:lightskyblue;
     box-shadow: 220px 100px 200px 10px lightblue;
-    /* padding: 30px; */
+    padding-top: 10px;
     font-size: 40px;
     text-align: center;
+    text-shadow: 2px 4px lightgoldenrodyellow;
 }
+/*Estilo para el titulo principal*/
+#PrimerTitulo{
+    color: linen;
+    font-size: 35px;
+    /* text-decoration-line:overline; */
+    /* text-decoration: yellow; */
+    text-shadow: 2px 4px blue;
+}
+
 .form-select{
     color: lightyellow;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: lightskyblue;
+    background-color: lightgoldenrodyellow;
     
 
+}
+
+/*Nombre de los input*/
+.form-label{
+    color: rgb(102, 100, 100);
+    background-color:lemonchiffon;
+    /* text-align: left; */
+    /* align-items:center; */
+    box-shadow: /*4px*/ 2px 10px 8px;
+    /* text-align: left; */
 }
 
 .nombre {
     color: rgb(67, 64, 64);
     padding-top: 150px;
     padding: 10px;
+    /* align-items: center; */
+    
 }
 
 /* Diseño del boton de registrarse*/
@@ -47,9 +70,67 @@
     box-shadow: 2px 2px 12px 8px whitesmoke;
     margin-top: 16px;
     margin-bottom: 1cm;
-
 }
 
+.Registrate{
+    text-align: center;
+    /* margin-top: 200px; */
+    /* align-items: center; */
+   
+}
+
+/*INICIO - Diseños de inmput para el usuario(Efectos de sombra)*/
+#inputName{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black;
+    margin-top: 4px;
+    padding: 3px;   
+    
+}
+
+#inputfechaNac{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black;
+    margin-top: 4px;
+    padding: 3px;
+    
+}
+
+#inputEdad{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black;
+    margin-top: 4px;
+    padding: 3px;
+}
+
+#inputmail{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black;
+    margin-top: 4px;
+    padding: 3px;
+}
+
+#inputUser{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black; 
+    margin-top: 4px;
+    padding: 3px;
+}
+
+#inputClave{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black; 
+    margin-top: 4px;
+    padding: 3px;
+}
+
+#FormListaPaises{
+    box-shadow: /*2px*/ 2px 10px 8px;
+    color: black; 
+    margin-top: 4px;
+    padding: 3px; 
+}
+/*FIN - Diseños de inmput para el usuario(Efectos de sombra)*/
 
 
 /*Responsive*/
@@ -73,15 +154,15 @@
 
 .form-control{
     background-color: lightskyblue;
-    font-size: 18px;
-    
+    /* font-size: 25px; */
 }
 
 /*Nombre del titulo de los input registro del usuario*/
 .col-sm-12{
     /* background-color: lightblue; */
-    color: cadetblue;
-    
+    color:blue;
+    font-size: 8px;
+    margin-top: 30px;   
 }
 
 /*Logo Afa*/
