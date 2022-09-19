@@ -47,15 +47,18 @@
 .botonesedicion{
     position: absolute;
     top:0;
-    right: 15px;
-    
+    right: 15px;   
 }
+
+/*Boton eliminar carta en pantalla registro (Usuario registrado) */
 .eliminar{
     border: transparent;
     background-color: transparent;
+    color: red;
 }
+/*Icono editar carta d jugar cargado*/
 .botonesedicion a{
-    color:rgb(1, 1, 1);
+    color:blue;
 }
 
 @media screen and (min-width:500px) {
