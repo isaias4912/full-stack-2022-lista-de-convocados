@@ -25,7 +25,7 @@
     padding-top: 10px;
     font-size: 40px;
     text-align: center;
-    text-shadow: 2px 4px lightgoldenrodyellow;
+    text-shadow: 2px 4px whitesmoke;
 }
 
 /*Estilo para el titulo principal*/
@@ -47,9 +47,12 @@
     
 }
 
-/*Nombre de los input*/
+/*Titulo de los input para el usuario*/
 .form-label{
-    color:grey;
+    color:black;
+    background-color:lightskyblue ;
+    box-shadow: 2px 6px 2px 2px lightgray;
+    margin-top: 5px;
     /* background-color:lemonchiffon; */
     /* text-align: center; */
     /*box-shadow: 4px*/ /*2px 10px 8px;*/
@@ -61,28 +64,25 @@
 .container{
     /* align-items: center; */
     text-align: left;
+    /*Inicio de margen de los input para el usuario*/
+    margin-left: 575px;
+    /*Fin de margen de los input para el usuario*/
 }
 
 /* Diseño del boton de registrarse*/
 #BotonReg {
     padding: 15px;
     font-size: 14px;
-    /* text-align: center;  */
     font-family: var(--bs-body-font-family);
     background-color: rgb(49, 49, 159);
-    box-shadow: 2px 2px 12px 8px whitesmoke;
-    margin-top: 16px;
-    margin-bottom: 1cm;
-    /* justify-content: left; */
+    box-shadow: 2px 2px 12px 8px black;
+    margin-top: 45px;
+    margin-bottom: 10cm;
+    /*Inicio margen del botón de registro*/
+    margin-left: 105px;
+    /*Fin margen del botón de registro*/
 }
 
-/* .Registrate{
-    text-align: center;
-    /* margin-top: 200px; */
-    /* align-items: center; */
-    /*color: red;
-   
-} */
 
 /*INICIO - Diseños de input para el usuario(Efectos de sombra)*/
 #inputName{
@@ -165,10 +165,10 @@
 
 /*Nombre del titulo de los input registro del usuario*/
 .col-sm-12{ 
-    /* background-color: lightblue; */
+    /* box-shadow: 2px 2px 2px 2px black; */
     /* color:blue; */
-    font-size: 8px;
-    margin-top: 30px; 
+    font-size: 30px;
+    margin-top: 8px; 
  } 
 
 /*Logo Afa*/
