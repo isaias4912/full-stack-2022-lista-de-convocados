@@ -83,9 +83,9 @@ main{
    margin:2rem;
 
 }
-.card img{
+
     
-}
+
 .card:hover{
     border-color: blue;
     font-size: 20px;
