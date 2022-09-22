@@ -55,6 +55,7 @@ main{
     margin:5px;
     padding:0px;
     border-style: outset;
+    align-items: center;
 
   
 }
@@ -62,7 +63,7 @@ main{
 
 .bandera img{
     height:35px;
-    width:35px;
+    width: 35px;
     padding:8px;
     margin:0px;
 

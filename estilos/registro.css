@@ -1,16 +1,3 @@
-/**/
-/* #Registro{
-    margin-top: 80px;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: left;
-    color: whitesmoke; 
-    margin-top: 3cm ;
-    background-color: rgb(15, 175, 190);
-
-} */
-
-
 
 .Registrate{
     padding-top: 250px;
@@ -23,19 +10,10 @@
     background-color:lightskyblue;
     box-shadow: 220px 100px 200px 10px lightblue;
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    text-shadow: 2px 4px lightgoldenrodyellow;
+    text-shadow: 2px 4px whitesmoke;
 }
-
-/*Estilo para el titulo principal*/
-/* #PrimerTitulo{ */
-    /* color: linen; */
-    /* font-size: 35px; */
-    /* text-decoration-line:overline; */
-    /* text-decoration: yellow; */
-    /* text-shadow: 2px 4px blue; */
-/* } */
 
 
 /*Seleccionador de paises en pantalla de registro*/
@@ -47,46 +25,35 @@
     
 }
 
-/*Nombre de los input*/
+/*Titulo de los input para el usuario*/
 .form-label{
-    color:grey;
-    /* background-color:lemonchiffon; */
-    /* text-align: center; */
-    /*box-shadow: 4px*/ /*2px 10px 8px;*/
-    
+    color:black;
+    background-color:lightskyblue ;
+    box-shadow: 2px 6px 2px 2px lightgray;
+    margin-top: 5px;
+     
 }
 
 
-/*titulos de los input que indica que datos debe ingresar el usuario*/
-.container{
-    /* align-items: center; */
-    text-align: left;
-}
 
 /* Diseño del boton de registrarse*/
 #BotonReg {
     padding: 15px;
     font-size: 14px;
-    /* text-align: center;  */
     font-family: var(--bs-body-font-family);
     background-color: rgb(49, 49, 159);
-    box-shadow: 2px 2px 12px 8px whitesmoke;
-    margin-top: 16px;
-    margin-bottom: 1cm;
-    /* justify-content: left; */
+    box-shadow: 2px 2px 12px 8px black;
+    margin-top: 45px;
+    margin-bottom: 10cm;
+    
+    width: 80%;
+    /*Fin margen del botón de registro*/
 }
 
-/* .Registrate{
-    text-align: center;
-    /* margin-top: 200px; */
-    /* align-items: center; */
-    /*color: red;
-   
-} */
 
 /*INICIO - Diseños de input para el usuario(Efectos de sombra)*/
 #inputName{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow: 2px 10px 8px;
     color: black;
     margin-top: 4px;
     padding: 3px;   
@@ -94,35 +61,35 @@
 }
 
 #inputfechaNac{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow: 2px 10px 8px;
     color: black;
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputEdad{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow: 2px 10px 8px;
     color: black;
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputmail{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow: 2px 10px 8px;
     color: black;
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputUser{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow:  2px 10px 8px;
     color: black; 
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputClave{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow:  2px 10px 8px;
     color: black; 
     margin-top: 4px;
     padding: 3px;
@@ -130,7 +97,7 @@
 }
 
 #FormListaPaises{
-    box-shadow: /*2px*/ 2px 10px 8px;
+    box-shadow:  2px 10px 8px;
     color: black; 
     margin-top: 4px;
     padding: 3px; 
@@ -138,45 +105,45 @@
 /*FIN - Diseños de inmput para el usuario(Efectos de sombra)*/
 
 
-/*Responsive*/
-/*Diseño y tamaño de las cajas de input (TextBox)*/
-/* .container{
-        width:800px ;
-        text-align: left;
-        padding: 5px;
-        color: black;
-    } */
-
-@media only screen and(min-width:576px) {
-
-    .container {
-        width: 300px;
-        box-sizing: border-box;
-    }
-}
-
-
 /*Input controles*/
 .form-control{
     background-color: lightskyblue;
-    /* font-size: 25px; */
-    /* align-items: center; */
+    
 }
 
 /*Nombre del titulo de los input registro del usuario*/
 .col-sm-12{ 
-    /* background-color: lightblue; */
-    /* color:blue; */
-    font-size: 8px;
-    margin-top: 30px; 
+    font-size: 30px;
+    margin-top: 8px; 
  } 
 
 /*Logo Afa*/
 
 .logo{
-    /* height:10px ; */
     width:20px ;
     margin-left: 45px;
 }
 
 
+@media only screen and (min-width:1000px) {
+
+    .Formulario {
+        
+        width: 70%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    #BotonReg{
+        width: 32%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .Formulario {
+        
+        width: 100%;
+        margin-left: 403px;
+        
+    }
+}
