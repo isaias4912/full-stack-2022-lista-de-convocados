@@ -1,7 +1,7 @@
 main{
     padding-top: 200px;
     background-image: url("../imagenes/imagenes/fondo10.jpg");
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
 
@@ -21,7 +21,7 @@ main{
 
 
  .logo{
-    /* height:10px ; */
+    
     width:20px ;
     margin-left: 45px;
 }
@@ -38,12 +38,11 @@ main{
 } 
 
 
-/*Estilo para el titulo principal*/
+
 #PrimerTitulo{
     color: linen;
     font-size: 35px;
-    /* text-decoration-line:overline; */
-    /* text-decoration: yellow; */
+  
     text-shadow: 2px 4px blue;
 }
 
@@ -72,18 +71,25 @@ padding-bottom: 0px;
     width: 50px;
 }
 
-.partido1{
+.partido{
     display: flex;
     justify-content: space-around;
     margin: auto;
-    width: 49%;
+    width: 90%;
     padding-top: 0px;
-    align-items: center;
-    align-content: center;
+    max-width: 705px;
     background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
     filter: opacity(0.8);
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 3rem;
+}
+
+.equipo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 .equipos{
     color: aliceblue;
@@ -95,40 +101,13 @@ padding-bottom: 0px;
     margin: 1px;
 }
 
-h4,h5,h6{
-    text-align: center;  
-}
-.partido2{
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: 50%;
-    padding-top: 0px;
-    align-items: center;
-    align-content: center;
-    background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
-    filter: opacity(0.8);
-    border-radius: 20px;
-    margin-top: 20px;
 
-}
 
-.partido3{
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: 50%;
-    
-    align-items: center;
-    align-content: center;
-    background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
-    filter: opacity(0.8);
-    border-radius: 20px;
-    margin-top: 20px;
-}
 
-.fecha{
-    padding-top: 0px;
+.fecha h5{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
 .titulo4{
     color: aliceblue;
