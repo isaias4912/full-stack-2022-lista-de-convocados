@@ -18,6 +18,9 @@ main{
     
     
  }
+ .contenedorPartidos{
+    width: 100%;
+ }
 
 
  .logo{
@@ -117,4 +120,21 @@ padding-bottom: 0px;
 }
 .seleccion{
     color: black;
+}
+
+@media only screen and (min-width:768px){
+    .contenedorPartidos{
+        width: 45%;
+        display: inline-grid;
+    }
+    
+}
+
+@media only screen and (min-width:1200px){
+    .contenedorPartidos{
+        width: 20%;
+        margin-left: 50px;
+        
+    }
+    
 }

@@ -14,14 +14,16 @@
 .partidos{
     
     flex-direction: column;
+    
 }
 .partido{
     position: relative;
     background-color: #f6f7b7;
-    padding:3rem 0;
-    margin-bottom: 2rem;
-    height: 300px;
+    
+    margin: 2rem;
+    height: auto;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 .partido img{
     width: 5rem;
@@ -29,6 +31,7 @@
 }
 .fecha{
     font-size: 20px;
+    padding-top: 2rem;
    
 
 }
@@ -47,7 +50,8 @@
 .botonesedicion{
     position: absolute;
     top:0;
-    right: 15px;   
+    right: 15px; 
+    
 }
 
 /*Boton eliminar carta en pantalla registro (Usuario registrado) */
@@ -75,6 +79,7 @@
     }
     .partidos{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
 
     }
@@ -83,4 +88,12 @@
         margin: 2rem;
     }
     
+}
+
+@media screen and (min-width:1200px) {
+    .partido{
+        width: 25%;
+       
+        
+    }
 }
