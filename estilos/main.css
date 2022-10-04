@@ -35,6 +35,7 @@ main{
     width: 60%;
     color: white;
     text-align: center;
+    font-family: 'Kalam', cursive;
 }
 
 
@@ -115,14 +116,8 @@ main{
 }
 /*footer*/
 
-#fondoimagen{
-    background-image: url(../imagenes/cancha.jpg);
-    
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    
-    background-position: center center;
+footer {
+   
    
 
 }
@@ -145,7 +140,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 300px;
+   
+    background-image: url(../imagenes/cancha.jpg);
+    
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;
     
 }
 #autor{
