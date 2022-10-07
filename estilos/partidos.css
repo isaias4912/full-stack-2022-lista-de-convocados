@@ -45,17 +45,19 @@ main{
 #PrimerTitulo{
     color: linen;
     font-size: 35px;
-  
     text-shadow: 2px 4px blue;
 }
+  
 
 
 .titulo-seleccion {
     color: rgb(187, 187, 207);
     padding-top: 10px;
-    margin: 0px; 
+    margin: 30px; 
     text-align-last: center;
     font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 80px;
+    
 }
 
 .titulos-futbol {
