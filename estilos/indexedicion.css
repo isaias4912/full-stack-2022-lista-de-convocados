@@ -20,7 +20,10 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 200px 0 200px 0;
-    width: 100%;
+    
+        width: 100%;
+        height: 80vh;
+
     background-position: center;
     object-fit: fill;
 }

@@ -27,7 +27,7 @@ main{
 }
 
 .contenedor{
-    width: 70%;
+    width: 60%;
 }
 
 
@@ -105,7 +105,7 @@ main{
 }
 /*carrusel*/
 .carousel{
-    margin-top: 150px;
+    margin-top: 250px;
     align-content: center;
 }
 .carousel-item{
