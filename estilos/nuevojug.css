@@ -14,14 +14,15 @@ a{
 
 
 .container{
-    display: grid;
-    background-color: #F3F3F3;
-  height: 100%;
+  display: grid;
+  background-color: #F3F3F3;
+ 
   place-items: center;
   text-align: center;
-  padding-bottom: 2rem;
-  padding-top: 5rem;
-  width: 90%;
+  margin-top: 20rem;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  
   position: relative;
 }
 .container .wrapper{

@@ -28,7 +28,7 @@ document.querySelector("#btnNextPass").onclick = function(){
     const emailValidar = validarEmail(correo);
 
     if(!emailValidar){
-        alertEmailLogin.innerHTML ='<p style="color:red; font-size: 14px;" >Escribe una direccion de correo electrónico valida</p>';
+        alertEmailLogin.innerHTML ='<p style="color:red; font-size: 24px;" >Escribe una direccion de correo electrónico valida</p>';
         alertEmailLogin.style.display="block";
 
         
@@ -156,7 +156,7 @@ document.querySelector("#btnLogin").onclick = function(){
                       
             
             setTimeout(function(){
-                window.location.href = "../pantallasedicion/indexEdicion.html";
+                window.location.href = "../pantallasedicion/jugeditables.html";
             }, 1000)
 
     }

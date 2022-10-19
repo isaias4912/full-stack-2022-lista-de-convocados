@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/indexedicion.css">
     <link rel="stylesheet" href="../estilos/nuevopart.css">
+    <link rel="stylesheet" href="../estilos/main.css">
 
 </head>
 
@@ -21,19 +22,42 @@
     <header>
         <nav class="navbar navbar-expand-md  fixed-top " id="color">
             <div class="logot">
-                <a href="../pantallasedicion/indexEdicion.html"><img src="../imagenes/afa.png"></a>
+                <img src="../imagenes/afa.png"></a>
 
             </div>
 
             <div class="container-fluid contenedor">
 
+
                 <div class="tituloCentral">
                     <h1>Convocatoria Mundial Qatar 2022</h1>
                     <h3>Selección Argentina</h3>
-                    <h3 style="color:brown;">Bienvenido Visitante</h3>
                 </div>
-                <a class="btn btn-outline btn-secondary " type="submit" id="link" href="../index.html">Cerrar sesión
-                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class=" btn btn-outline" id="link" href="jugeditables.html">Jugadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" btn btn-outline" id="link" href="partidoseditable.html">Partidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" btn btn-outline" id="link"  style="background-color:rgb(240, 15, 15);"  href="../index.html">Salir</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+
             </div>
 
         </nav>
@@ -48,14 +72,14 @@
                 <h1>Indicá los seleccionados que se enfrentarán en este mundial</h1>
 
                 <div class="selectbox">
-                    <div class="select" id="select">
+                    <div class="select" id="select1">
                         <div class="contenido-select">
                             <h3 class="tituloP">Primer seleccionado</h3>
                         </div>
                         <i class="bi bi-chevron-down"></i>
 
                     </div>
-                    <div class="opciones " id="opciones">
+                    <div class="opciones " id="opciones1">
                         <a href="#" class="opcion">
                             <div class="contenido-opcion">
                                 <img src="../imagenes/alemania.png" alt="">
@@ -452,14 +476,14 @@
                 <!-- Inicio Segunda carga multi-selector de paises -->
 
                 <div class="selectbox">
-                    <div class="select" id="select">
-                        <div class="contenido-select">
+                    <div class="select" id="select2">
+                        <div class="contenido-select2">
                             <h3 class="tituloP">Segundo seleccionado</h3>
                         </div>
                         <i class="bi bi-chevron-down"></i>
 
                     </div>
-                    <div class="opciones " id="opciones">
+                    <div class="opciones " id="opciones2">
                         <a href="#" class="opcion">
                             <div class="contenido-opcion">
                                 <img src="../imagenes/alemania.png" alt="">
@@ -890,7 +914,10 @@
 
                 <!-- Fin segunda carga multi-selector de paises -->
                 
-                <input type="hidden" name="pais" id="inputSelect" value="">
+                <input type="hidden" name="pais" id="inputSelect1" value="">
+                <input type="hidden" name="pais" id="inputSelect2" value="">
+
+
                 <label for="dia">Indicar dia</label>
 
                 <input type="date" id="dia" value="16-08-2022">
