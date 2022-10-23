@@ -4,28 +4,33 @@ body{
     font-family: 'Kalam', cursive;
     
 }
-h1{
+
+
+/* Titulo seleccion- arriba de las cartas */
+.Titulo_seleccion{
     text-align: center;
-    margin-top: 2rem;
-  
-  
+    margin-top: 40px;
+    font-size: 60px;
+    color: black;
+    text-shadow: 5px 5px 5px blue;
 }
+  
+  
+
+
 .btn{
     margin: .5rem;
 
 }
+
 main{
     background-image: url(../imagenes/ilustracion-cartel-futbol-futbol-argentina-diseno-qatar-copa-mundial-2022_474905-88.webp);
-    
- 
     object-fit: cover;
     width: 100%;
     overflow: hidden;
     height: auto;
-    
-   
 }
-
+    
 .contenedor{
     width: 60%;
 }
@@ -33,9 +38,11 @@ main{
 
 .tituloCentral{
     width: 60%;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     font-family: 'Kalam', cursive;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px blue;
 }
 
 
@@ -46,10 +53,14 @@ main{
     background-color: rgb(112, 175, 231);
     text-align: left;
 }
+
+
 .logog{
     max-width: 100px;
   
 }
+
+/* grupo de botones de la pagina inicial */
 #link{
     width: 90%;
     border-color: black;
@@ -57,10 +68,13 @@ main{
     color:#fefefe;
    
 }
- #link:hover{
+
+#link:hover{
     background-color: rgb(193, 188, 245);
 
-} 
+}
+
+
 .navbar .container{
     align-content: center;
     flex-direction: column;
@@ -69,14 +83,12 @@ main{
     height: 150px;
 }
 
-
-
-
-
 /* jugadores*/
 .row{
     align-content: center;
 }
+
+
 .card{
    padding: 2rem;
    border-radius: 5%;
@@ -86,7 +98,6 @@ main{
 }
 
     
-
 .card:hover{
     border-color: blue;
     font-size: 20px;
@@ -94,15 +105,19 @@ main{
     color:blue;
    
    
- }
- .jugCont{
+}
+
+
+.jugCont{
     justify-content: space-around;
 
- }
+}
  
 .card-img-top{
     height: 300px;
 }
+
+
 /*carrusel*/
 .carousel{
     margin-top: 250px;
@@ -116,11 +131,7 @@ main{
 }
 /*footer*/
 
-footer {
    
-   
-
-}
 .list-group-item{
     display: flex;
     justify-content: space-around;
@@ -133,6 +144,8 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
+
 .footer{
   
     justify-content: space-between;
@@ -140,29 +153,21 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     background-image: url(../imagenes/cancha.jpg);
-    
     background-size: cover;
-    
     background-repeat: no-repeat;
-    
     background-position: center center;
-    
 }
+
 #autor{
     font-size: 27px;
     color:#fefefe
+
 }
 
+/*media adaptar al tamaño lg*/
 
-
-
-
-
- /*media adaptar al tamaño lg*/
-
- @media only screen and (min-width:768px) {
+@media only screen and (min-width:768px) {
     .contenedor{
         flex-direction: column;
     }
@@ -171,14 +176,14 @@ footer {
     }
     
     
- }
+}
 
- @media only screen and (min-width: 700px){
+@media only screen and (min-width: 700px){
     .footer{
         flex-direction: row;
        
     }
     
- }
+}
 
  
