@@ -1,6 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
 .Registrate{
-    padding-top: 250px;
+    padding-top: 350px;
+}
+
+/* titulos de input para el usuario */
+.DatosRegUser{
+    font-family: Gloria Hallelujah;
+    /* text-decoration-style:unset; */
+    text-transform:inherit;
+    text-align: center;
+}
+/* #color{
+    color: red;
+    color: none;
+} */
+
+/* TITULO */
+.tituloCentral{
+    text-decoration:wavy;
+    text-transform:uppercase;
+    text-shadow: 5px 5px 5px blue;
+    /* font-size: 80px; */
+    /* box-shadow: -5px 5px 5px 10px lightskyblue; */
 }
 
 /*alineación del tutulo de la pantalla de REGISTRO*/
@@ -28,9 +52,10 @@
 /*Titulo de los input para el usuario*/
 .form-label{
     color:black;
-    background-color:lightskyblue ;
-    box-shadow: 2px 6px 2px 2px lightgray;
-    margin-top: 5px;
+    /* background-color:lightskyblue ; */
+    /* box-shadow: 2px 6px 2px 2px lightgray; */
+    text-shadow: 5px 5px 5px 5px blue;
+    margin-top: 2px;
      
 }
 
@@ -38,84 +63,89 @@
 
 /* Diseño del boton de registrarse*/
 #BotonReg {
-    padding: 15px;
-    font-size: 14px;
-    font-family: var(--bs-body-font-family);
-    background-color: rgb(49, 49, 159);
-    box-shadow: 2px 2px 12px 8px black;
-    margin-top: 45px;
-    margin-bottom: 10cm;
-    
-    width: 80%;
+    padding: 5px;
+    font-family: Gloria Hallelujah;
+    font-size: 18px;
+    background-color: lightblue;
+    color:blue;
+    text-decoration:underline;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+    width: 2px;
     /*Fin margen del botón de registro*/
 }
 
 
 /*INICIO - Diseños de input para el usuario(Efectos de sombra)*/
 #inputName{
-    box-shadow: 2px 10px 8px;
-    color: black;
+    box-shadow: 2px 10px 8px lightblue;
+    /* color: black; */
     margin-top: 4px;
     padding: 3px;   
     
 }
 
 #inputfechaNac{
-    box-shadow: 2px 10px 8px;
-    color: black;
+    box-shadow: 2px 10px 8px lightblue;
+    /* color: black; */
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputEdad{
-    box-shadow: 2px 10px 8px;
-    color: black;
+    box-shadow: 2px 10px 8px lightblue;
+    /* color: blue; */
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputmail{
-    box-shadow: 2px 10px 8px;
-    color: black;
+    box-shadow: 2px 10px 8px lightblue;
+    /* color: blue; */
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputUser{
-    box-shadow:  2px 10px 8px;
-    color: black; 
+    box-shadow: 2px 10px 8px lightblue;
+    /* color: black;  */
     margin-top: 4px;
     padding: 3px;
 }
 
 #inputClave{
-    box-shadow:  2px 10px 8px;
-    color: black; 
+    box-shadow: 2px 10px 8px lightblue;
+    /* color: black;  */
     margin-top: 4px;
     padding: 3px;
     
 }
 
+/* LISTA DE PAISES */
 #FormListaPaises{
-    box-shadow:  2px 10px 8px;
-    color: black; 
+    /* box-shadow: 2px 10px 8px lightblue; */
+    text-shadow: 5px 5px 5px lightskyblue;
+    /* color: black;  */
     margin-top: 4px;
     padding: 3px; 
+    font-family: Gloria Hallelujah ;
+    background-color: whitesmoke;
 }
 /*FIN - Diseños de inmput para el usuario(Efectos de sombra)*/
 
 
-/*Input controles*/
+/*input del usuario para el registro*/
 .form-control{
-    background-color: lightskyblue;
+    background-color: whitesmoke;
     
 }
 
-/*Nombre del titulo de los input registro del usuario*/
+/*Espacio entre input del usuario*/
 .col-sm-12{ 
     font-size: 30px;
-    margin-top: 8px; 
- } 
+    margin-top: 2px; 
+} 
 
 /*Logo Afa*/
 
@@ -124,6 +154,11 @@
     margin-left: 45px;
 }
 
+
+
+
+
+/* RESPONSIVE */
 
 @media only screen and (min-width:1000px) {
 
