@@ -65,7 +65,7 @@ main{
     text-align: center;
     text-shadow: 5px 5px 5px whitesmoke;
     font-size: 25px;
-    border-color: blue;
+    /* border-color: blue; */
     color: blue;
     background-color: lightskyblue;
    
