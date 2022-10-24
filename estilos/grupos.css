@@ -26,10 +26,23 @@ main{
 
 }
 
+/* h1{
+    color: blue;
+    text-shadow: 5px 5px 5px whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    
+} */
+
 .contenGrupos h1{
     display: block;
     padding: 2rem 0 2rem 0;
     width: 100%;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 
