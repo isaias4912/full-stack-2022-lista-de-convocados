@@ -45,7 +45,9 @@ main{
     text-shadow: 5px 5px 5px blue;
 }
 
-
+body{
+    background-color: lightskyblue;
+}
 
 
 /*header*/
