@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 
-.Registrate{
-    padding-top: 350px;
-}
+/* .Registrate{ */
+    /* padding-top: 350px; */
+/* } */
 
 /* titulos de input para el usuario */
 .DatosRegUser{
@@ -57,17 +57,20 @@
 
 /* Diseño del boton de registrarse*/
 #BotonReg {
-    padding: 5px;
+    padding: 2px;
     font-family: Gloria Hallelujah;
     font-size: 18px;
     background-color: lightblue;
     color:blue;
     text-decoration:underline;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-left: 380px;
-    width: 2px;
+    width: 10px;
+    height: 60px;
+    padding-top: 2px;
     /*Fin margen del botón de registro*/
+    border-radius: 10px;
 }
 
 
