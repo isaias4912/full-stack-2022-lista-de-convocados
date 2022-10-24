@@ -12,10 +12,7 @@
     text-transform:inherit;
     text-align: center;
 }
-/* #color{
-    color: red;
-    color: none;
-} */
+
 
 /* TITULO */
 .tituloCentral{
@@ -32,7 +29,6 @@
     margin-top: 2px;
     background-color:blue;
     margin: 10px;
-    /* box-shadow: 220px 100px 200px 10px lightblue; */
     padding-top: 2px;
     font-size: 50px;
     text-align: center;
@@ -52,8 +48,6 @@
 /*Titulo de los input para el usuario*/
 .form-label{
     color:black;
-    /* background-color:lightskyblue ; */
-    /* box-shadow: 2px 6px 2px 2px lightgray; */
     text-shadow: 5px 5px 5px 5px blue;
     margin-top: 2px;
      

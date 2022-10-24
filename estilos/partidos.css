@@ -111,8 +111,15 @@ main{
     margin: 1px;
 }
 
-
-
+/* BOTON DE LA SECCION DE PARTIDOS - INGRESA TUS DATOS */
+.btn{
+    text-align: center;
+    text-shadow: 5px 5px 5px whitesmoke;
+    font-size: 25px;
+    border-color: blue;
+    color: blue;
+    background-color: lightskyblue;
+}
 
 .fecha h5{
     font-weight: bold;

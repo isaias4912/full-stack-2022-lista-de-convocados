@@ -25,6 +25,7 @@ main{
    
 
 }
+
 .contenGrupos h1{
     display: block;
     padding: 2rem 0 2rem 0;
@@ -37,13 +38,10 @@ main{
     width:90%;
     margin-bottom: 2rem;
     align-content: center;
-
-   
     padding:2px;
-   
     flex-direction: column;
-   
 }
+  
 .grupoMundial:hover{
     background-color: rgb(90, 79, 243);
  
@@ -75,6 +73,8 @@ main{
     }
     
 }
+
+
 @media screen and (min-width:768px) {
     .contenGrupos{
         flex-direction: row;
@@ -82,12 +82,15 @@ main{
         justify-content: space-around;
         
     }
+
     .grupoMundial{
         width: 40%;
         margin-right: 2rem;
     }
     
 }
+
+
 @media screen and (min-width:1200px) {
     
     .grupoMundial{
