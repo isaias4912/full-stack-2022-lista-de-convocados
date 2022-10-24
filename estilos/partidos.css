@@ -1,3 +1,5 @@
+
+
 main{
     padding-top: 200px;
     background-image: url("../imagenes/imagenes/fondo10.jpg");
@@ -15,15 +17,16 @@ main{
     background-repeat: no-repeat;
    
     padding: 50px 0 200px 0;
-    
-    
- }
- .contenedorPartidos{
+
+}
+
+
+.contenedorPartidos{
     width: 100%;
- }
+}
 
 
- .logo{
+.logo{
     
     width:20px ;
     margin-left: 45px;
@@ -114,12 +117,17 @@ padding-bottom: 0px;
     font-size: 30px;
     text-align: center;
 }
+
 .titulo4{
     color: aliceblue;
 }
+
+
 .titulo5{
     color: black;
 }
+
+
 .seleccion{
     color: black;
 }
