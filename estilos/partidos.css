@@ -64,8 +64,8 @@ main{
 }
 
 .titulos-futbol {
-padding-top: 0px;
-padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .linea{
@@ -99,10 +99,12 @@ padding-bottom: 0px;
     align-items: center;
     justify-content: center;
 }
+
 .equipos{
     color: aliceblue;
     font-family: 'Mochiy Pop One', sans-serif;
 }
+
 .guion{
     color:rgb(218, 240, 22);
     font-size: 53px;
