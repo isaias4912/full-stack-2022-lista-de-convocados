@@ -10,7 +10,8 @@
     font-family: Gloria Hallelujah;
     /* text-decoration-style:unset; */
     text-transform:inherit;
-    text-align: center;
+    text-align: left;
+    padding-top: 100px;
 }
 
 
