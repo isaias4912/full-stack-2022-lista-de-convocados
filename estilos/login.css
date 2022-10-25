@@ -30,6 +30,7 @@
 }
     
 
+
 .banner-image{
     position: absolute;
 }
@@ -154,9 +155,8 @@
     background-color: transparent;
     margin-right: 5px;
 }
-#btnPrev i {
 
-}
+
 .divBtnAction{
     justify-content: space-between;
     align-items: center;

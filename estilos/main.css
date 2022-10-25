@@ -47,9 +47,14 @@ main{
 
 body{
     background-color: lightskyblue;
+    
 }
 
 
+#autor{
+    text-shadow: 5px 5px 5px whitesmoke;
+    /* text-align: center; */
+}
 /*header*/
 #color{
     background-color: rgb(112, 175, 231);
