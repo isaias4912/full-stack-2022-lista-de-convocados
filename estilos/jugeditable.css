@@ -19,7 +19,16 @@ main{
    margin:2rem;
 
 }
-
+.Tit_seleccionado{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px blue;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    height: 70px;
+    font-size: 50px;
+}
 
 /*Boton de eliminar jugador, para ser cambiado por otro*/
 .eliminarjug{
