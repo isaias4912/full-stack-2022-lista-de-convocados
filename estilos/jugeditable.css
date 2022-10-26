@@ -14,11 +14,14 @@ main{
 .card{
    position: relative;
    padding: 2rem;
-   border-radius: 10%;
+   border-radius: 2px;
    width: 300px;
-   margin:2rem;
+   margin:2px;
 
 }
+
+
+
 .Tit_seleccionado{
     color: whitesmoke;
     text-align: center;
@@ -34,18 +37,19 @@ main{
 .eliminarjug{
     border: transparent;
     background-color: transparent;
-    color: red;
+    color:darkblue;
 }
 
- .jugCont{
+.jugCont{
     justify-content: space-around;
     /* color: black; */
 
- }
+}
  
- /*tamaño de cartas en pantalla "Registro (Usuario ya registrado)"*/
+/*tamaño de cartas en pantalla "Registro (Usuario ya registrado)"*/
 .card-img-top{
     height: 230px;
+    
 }
 
 .botonesedicion{
@@ -54,6 +58,7 @@ main{
     right: 15px;
     
 }
+
 .botonesedicion a{
-    color: blue;
+    color: lightskyblue;
 }
