@@ -58,11 +58,11 @@
 .eliminar{
     border: transparent;
     background-color: transparent;
-    color: red;
+    color: blue;
 }
 /*Icono editar carta d jugar cargado*/
 .botonesedicion a{
-    color:blue;
+    color:lightskyblue;
 }
 
 @media screen and (min-width:500px) {
