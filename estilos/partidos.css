@@ -1,4 +1,19 @@
+@media only screen and (min-width:768px){
+    .contenedorPartidos{
+        width: 45%;
+        display: inline-grid;
+    }
+    
+}
 
+@media only screen and (min-width:1200px){
+    .contenedorPartidos{
+        width: 20%;
+        margin-left: 50px;
+        
+    }
+    
+}
 
 main{
     padding-top: 200px;
@@ -141,19 +156,3 @@ main{
     color: black;
 }
 
-@media only screen and (min-width:768px){
-    .contenedorPartidos{
-        width: 45%;
-        display: inline-grid;
-    }
-    
-}
-
-@media only screen and (min-width:1200px){
-    .contenedorPartidos{
-        width: 20%;
-        margin-left: 50px;
-        
-    }
-    
-}

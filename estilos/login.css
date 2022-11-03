@@ -1,4 +1,11 @@
 
+@media (max-width:600px){
+    .body-car{
+        width: 98%;
+        
+    }
+}
+
 .contCard h3{
 
     color: #1b1b1b;
@@ -189,11 +196,6 @@
     left: 100% !important;
 }
 
-@media (max-width:600px){
-    .body-car{
-        width: 98%;
-        
-    }
-}
+
 
 

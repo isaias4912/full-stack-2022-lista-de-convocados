@@ -1,3 +1,10 @@
+@media screen and (max-width:800px) {
+    .selectbox{
+        width: 100%;
+
+    }
+    
+}
 
 .container{
     padding-top: 100px;
@@ -145,12 +152,5 @@ a{
     text-transform: uppercase;
     cursor: pointer;
     background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
-  }
-
-@media screen and (max-width:800px) {
-    .selectbox{
-        width: 100%;
-
-    }
-    
 }
+

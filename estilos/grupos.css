@@ -1,3 +1,36 @@
+@media screen and (min-width:576px) {
+    .grupoMundial{
+        width: 70%;
+    }
+    
+}
+
+
+@media screen and (min-width:768px) {
+    .contenGrupos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .grupoMundial{
+        width: 40%;
+        margin-right: 2rem;
+    }
+    
+}
+
+
+@media screen and (min-width:1200px) {
+    
+    .grupoMundial{
+        width: 20%;
+        
+    }
+    
+}
+
 main{
     padding-top: 200px;    
    
@@ -84,35 +117,3 @@ body{
 
 }  
 
-@media screen and (min-width:576px) {
-    .grupoMundial{
-        width: 70%;
-    }
-    
-}
-
-
-@media screen and (min-width:768px) {
-    .contenGrupos{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        
-    }
-
-    .grupoMundial{
-        width: 40%;
-        margin-right: 2rem;
-    }
-    
-}
-
-
-@media screen and (min-width:1200px) {
-    
-    .grupoMundial{
-        width: 20%;
-        
-    }
-    
-}
