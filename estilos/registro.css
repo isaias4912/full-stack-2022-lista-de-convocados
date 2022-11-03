@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+/* RESPONSIVE */
 
+@media only screen and (min-width:1000px) {
+
+    .Formulario {
+        
+        width: 70%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    #BotonReg{
+        width: 32%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .Formulario {
+        
+        width: 100%;
+        margin-left: 403px;
+        
+    }
+}
 
 /* .Registrate{ */
     /* padding-top: 350px; */
@@ -156,27 +179,3 @@
 
 
 
-/* RESPONSIVE */
-
-@media only screen and (min-width:1000px) {
-
-    .Formulario {
-        
-        width: 70%;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-    #BotonReg{
-        width: 32%;
-    }
-}
-
-@media only screen and (min-width:1200px) {
-
-    .Formulario {
-        
-        width: 100%;
-        margin-left: 403px;
-        
-    }
-}
