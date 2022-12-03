@@ -1,0 +1,31 @@
+{
+  "name": "full-stack-2022-lista-de-convocados",
+  "version": "1.0.0",
+  "description": "primer proycto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaias4912/full-stack-2022-lista-de-convocados.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaias4912/full-stack-2022-lista-de-convocados/issues"
+  },
+  "homepage": "https://github.com/isaias4912/full-stack-2022-lista-de-convocados#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
