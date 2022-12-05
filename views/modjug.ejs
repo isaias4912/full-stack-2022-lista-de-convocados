@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdicionVisitante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/estilos/jugeditable.css">
+    <link rel="stylesheet" href="/estilos/nuevojug.css">
+    <link rel="stylesheet" href="/estilos/main.css">
+    <link rel="stylesheet" href="../estilos/login.css">
+</head>
+
+<body>
+    <header>
+        <%- include('header2'); -%>
+        
+    </header>
+    <main>
+        <% if(jug) { %>
+        <div class="container justify-content-center " id="form justify-content-center">
+            <h1>EDITAR JUGADOR</h1>
+          
+            <div class="row justify-content-center">
+                <div class="formulario col-12 col-md-8">
+                    <div class="wrapper" id="imagen">
+                        <img src="<%= jug.imagen %>" alt="jug">
+                        
+                        
+                    </div>          
+                    <form class="row g-3 needs-validation mt-1" novalidate  action="/update" method="POST">
+                        <input id="id" name="id_jugadores" value="<%= jug.id_jugadores %>" hidden>
+                        <div class="col-lg-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" name="nombre"class="form-control " id="nombreJugador"value="<%= jug.nombre %>"  minlength="4"  required>
+                            
+                            <div class="invalid-feedback">
+                                Por Favor ingrese Nombre.
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-6">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellidoJugador" name="apellido" value="<%= jug.apellido %>"  minlength="4"  required>
+                        
+                        <div class="invalid-feedback">
+                            Por Favor ingrese Apellido.
+                        </div>
+                        
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="num_camiseta" class="form-label">Nro. Camiseta</label>
+                            <input type="number"  maxlength="2"  name="num_camiseta"  class="form-control" id="camisetaJugador"  value="<%= jug.num_camiseta %>"  required>
+                            
+                            <div class="invalid-feedback">
+                                Por Favor ingrese Numero Camiseta.
+                            </div>
+                            
+                            </div>
+                        
+                        <div class="col-lg-6">
+                            <label for="imagen" class="form-label">Ingrese URL imagen del Jugador</label>
+                            <input type="url" class="form-control" aria-label="file example" id="url"  value="<%= jug.imagen %>" name="imagen" required>
+                            <div class="invalid-feedback">Elija Foto de Jugador</div>
+                            </div>
+                        <div class="col-lg-6">
+                            <label for="posicion" class="form-label">Posicion</label>
+           "                 <select class="form-select"name="posicion" id="posicionJugador" required>
+                                <option selected disabled></option>
+                                <option <%=jug.posicion_id_posicion == 1 ? "selected":'' %> value="Arquero">Arquero</option>
+                                <option <%=jug.posicion_id_posicion == 3 ? "selected":'' %> value="Medio Campista">Medio Campista</option>
+                                <option <%=jug.posicion_id_posicion == 4 ? "selected":'' %> value="Delantero">Delantero</option>
+                                <option <%=jug.posicion_id_posicion == 2 ? "selected":'' %> value="Defensor">Defensor</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Por Favor Seleccione Posicion Jugador.
+                            </div>
+                        </div>
+                       
+                        
+                        
+                        <div class="col-12 d-flex">
+                            <div class="col-6 " >
+                                <button class="btn btn-primary guardar" type="submit" id="custom-btn" >Editar</button>
+
+                            </div>
+                            <div class="col-6">
+                                <a href="/"class="btn btn-secondary guardar" type="submit" id="custom-cancelar" >Cancelar</a>
+
+                            </div>
+
+                          
+                          
+                        </div>
+                      </form>
+                    
+                </div>
+            </div>
+      
+            <% } %>    
+        </div>
+        
+
+    </main>
+
+
+    <footer>
+        <%- include('footer'); -%>
+       
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        <script src="sweetalert2.all.min.js"></script> 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="validarDatos.js"></script>
+  
+    
+   
+</body>
+
+</html>

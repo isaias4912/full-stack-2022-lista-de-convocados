@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EdicionVisitante</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="../estilos/nuevopart.css">
+        <link rel="stylesheet" href="../estilos/main.css">
+        <link rel="stylesheet" href="../estilos/login.css">
+    </head>
+    
+    <body>
+        <header>
+            <%- include('header2'); -%>
+            
+        </header>
+    <main>
+      
+        <% if(part) { %>
+        <!-- Inicio primer multiselector de paises -->
+        <div class="container justify-content-center " id="form">
+           
+            <div class="row">
+                <h1 class="titulo">EDITAR PARTIDO</h1>
+                <div class="formulario container col-12 col-md-10">
+
+                    <form class="row needs-validation mt-1" novalidate action="/updatepartido" method="POST">
+                        <input id="id" name="id_partidos" value="<%= part.id_partidos %>" hidden>
+                        <div class="col-12 detalle">
+                            <div class="col-12 col-lg-5">
+                                <label for="equipo1" class="form-label">Seleccione Equipo 1</label>
+                                <select class="form-select" name="equipo1" id="" required>
+                                    <option selected disabled></option>
+                                    <option <%=part.equipo_1 =='BELGICA' ? "selected":'' %> value="BELGICA">BELGICA</option>
+                                    <option <%=part.equipo_1 =='TUNEZ' ? "selected":'' %> value="TUNEZ">TUNEZ</option>
+                                    <option <%=part.equipo_1 =='SENEGAL' ? "selected":'' %> value="SENEGAL">SENEGAL</option>
+                                    <option <%=part.equipo_1 =='ARGENTINA' ? "selected":'' %> value="ARGENTINA">ARGENTINA</option>
+                                    <option <%=part.equipo_1 =='REINO UNIDO' ? "selected":'' %> value="REINO UNIDO">REINO UNIDO</option>
+                                    <option <%=part.equipo_1 =='QATAR' ? "selected":'' %> value="QATAR">QATAR</option>
+                                    <option <%=part.equipo_1 =='POLONIA' ? "selected":'' %> value="POLONIA">POLONIA</option>
+                                    <option <%=part.equipo_1 =='FRANCIA' ? "selected":'' %> value="FRANCIA">FRANCIA</option>
+                                    <option <%=part.equipo_1=='MEXICO' ? "selected":'' %> value="MEXICO">MEXICO</option>
+                                    <option <%=part.equipo_1=='IRAN' ? "selected":'' %> value="IRAN">IRAN</option>
+                                    <option <%=part.equipo_1=='INGLATERRA' ? "selected":'' %> value="INGLATERRA">INGLATERRA</option>
+                                    <option <%=part.equipo_1=="GALES" ? "selected":'' %> value="GALES">GALES</option>
+                                    <option <%=part.equipo_1=="ESTADOS UNIDOS" ? "selected":'' %> value="ESTADOS UNIDOS">ESTADOS UNIDOS</option>
+                                    <option <%=part.equipo_1=="ESPAÑA" ? "selected":'' %> value="ESPAÑA">ESPAÑA</option>
+                                    <option <%=part.equipo_1=="DINAMERCA" ? "selected":'' %> value="DINAMARCA">DINAMARCA</option>
+                                    <option <%=part.equipo_1=="ARABIA SAUDITA" ? "selected":'' %> value="ARABIA SAUDITA">ARABIA SAUDITA</option>
+                                    <option <%=part.equipo_1=="ECUADOR" ? "selected":'' %> value="ECUADOR">ECUADOR</option>
+                                    <option <%=part.equipo_1=="ALEMANIA" ? "selected":'' %> value="ALEMANIA">ALEMANIA</option>
+                                    <option <%=part.equipo_1=="URUGUAY" ? "selected":'' %> value="URUGUAY">URUGUAY</option>
+                                    <option <%=part.equipo_1=="POLONIA" ? "selected":'' %> value="POLONIA">POLONIA</option>
+                                    <option <%=part.equipo_1=="AUSTRALIA" ? "selected":'' %> value="AUSTRALIA">AUSTRALIA</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Por Favor Seleccione EQUIPO 1.
+                                </div>
+                            </div>
+
+                            <!-- Fin primer multiselector de paises -->
+
+                            <!-- Inicio Segunda carga multi-selector de paises -->
+
+                            <div class=" col-lg-2"></div> 
+                            <div class="col-12 col-lg-5 ">
+                                <label for="equipo2" class="form-label">Seleccione Equipo 2</label>
+                                <select class="form-select" name="equipo2" id="" required>
+                                    <option selected disabled></option>
+                                    <option <%=part.equipo_2 == 'BELGICA' ? "selected":'' %> value="BELGICA">BELGICA</option>
+                                    <option <%=part.equipo_2 == "TUNEZ" ? "selected":'' %> value="TUNEZ">TUNEZ</option>
+                                    <option <%=part.equipo_2 == "SENEGAL" ? "selected":'' %> value="SENEGAL">SENEGAL</option>
+                                    <option <%=part.equipo_2 =='ARGENTINA' ? "selected":'' %> value="ARGENTINA">ARGENTINA</option>
+                                    <option <%=part.equipo_2 == "REINO UNIDO" ? "selected":'' %> value="REINO UNIDO">REINO UNIDO</option>
+                                    <option <%=part.equipo_2 == "QATAR" ? "selected":'' %> value="QATAR">QATAR</option>
+                                    <option <%=part.equipo_2 == "POLONIA" ? "selected":'' %> value="POLONIA">POLONIA</option>
+                                    <option <%=part.equipo_2  == "FRANCIA" ? "selected":'' %> value="FRANCIA">FRANCIA</option>
+                                    <option <%=part.equipo_2 == "MEXICO" ? "selected":'' %> value="MEXICO">MEXICO</option>
+                                    <option <%=part.equipo_2== "IRAN" ? "selected":'' %> value="IRAN">IRAN</option>
+                                    <option <%=part.equipo_2 == "INGRATERRA" ? "selected":'' %> value="INGLATERRA">INGLATERRA</option>
+                                    <option <%=part.equipo_2 == "GALES" ? "selected":'' %> value="GALES">GALES</option>
+                                    <option <%=part.equipo_2 == "ESTADOS UNIDOS" ? "selected":'' %> value="ESTADOS UNIDOS">ESTADOS UNIDOS</option>
+                                    <option <%=part.equipo_2 == "ESTAÑA" ? "selected":'' %> value="ESPAÑA">ESPAÑA</option>
+                                    <option <%=part.equipo_2 == "DINAMARCA" ? "selected":'' %> value="DINAMARCA">DINAMARCA</option>
+                                    <option <%=part.equipo_2 == "ARABIA SAUDITA" ? "selected":"" %> value="ARABIA SAUDITA">ARABIA SAUDITA</option>
+                                    <option <%=part.equipo_2 == "ECUADOR" ? "selected":"" %> value="ECUADOR">ECUADOR</option>
+                                    <option <%=part.equipo_2 == "ALEMANIA" ? "selected":"" %> value="ALEMANIA">ALEMANIA</option>
+                                    <option <%=part.equipo_2 == "URUGUAY" ? "selected":"" %> value="URUGUAY">URUGUAY</option>
+                                    <option <%=part.equipo_2=="POLONIA" ? "selected":'' %> value="POLONIA">POLONIA</option>
+                                    <option <%=part.equipo_2=="AUSTRALIA" ? "selected":'' %> value="AUSTRALIA">AUSTRALIA</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Por Favor Seleccione EQUIPO 2.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fin segunda carga multi-selector de paises -->
+
+
+
+
+                        <div class="col-12  mt-8 detalle">
+                            <div id="" class="col-lg-5">
+                                <label for="dia"  class="d-block">Fecha y Hora</label>
+
+                                <input type="date" id="dia" name="fecha" value="<%= new Date(part.fecha_partido).getFullYear() + "-" + (new Date(part.fecha_partido).getMonth()+1) + "-" + new Date(part.fecha_partido).getDate() %>">
+                                <div class="invalid-feedback">
+                                    Por Favor indique fecha y hora.
+                                </div>
+                                <input type="time" id="hora" value="<%=part.hora_partido %>" name="hora">
+                                <div class="invalid-feedback">
+                                    Por Favor indique fecha y hora.
+                                </div>
+
+
+                            </div>
+
+                            <div class="col-lg-2"></div> 
+                            <div class="col-lg-5">
+                                <label for="estadio" class="form-label">Seleccione Estadio</label>
+                                <select class="form-select" name="estadio" id="" required>
+                                    <option selected disabled></option>
+                                    <option <%=part.estadio_id_estadio == 1 ? "selected":'' %> value="AL THUMANA">Al thumana</option>
+                                    <option <%=part.estadio_id_estadio == 2 ? "selected":'' %> value="AL BAYT">Al Bayt</option>
+                                    <option <%=part.estadio_id_estadio == 3 ? "selected":'' %> value="AL RAYYAN">Al-Rayyan</option>
+                                    <option <%=part.estadio_id_estadio == 4 ? "selected":'' %> value="RAS ABU ABOUD">Ras Abu Aboud</option>
+                                    <option <%=part.estadio_id_estadio == 5 ? "selected":'' %> value="AL JANOUB">Al Janoub</option>
+                                    <option <%=part.estadio_id_estadio == 6 ? "selected":'' %> value="EDUCATION CITY">Education City</option>
+                                    <option <%=part.estadio_id_estadio == 7 ? "selected":'' %> value="STADIUM 974">Stadium 974</option>
+                                    <option <%=part.estadio_id_estadio == 8 ? "selected":'' %> value="lusail">Lusail</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Por Favor Seleccione estadio.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12 d-flex mt-8">
+                            <div class=" col-6 ">
+                                <button class="btn btn-primary guardar" type="submit" id="custom-btn">MODIFICAR</button>
+
+                            </div>
+                            <div class="col-6">
+                                <a href="/partidos" class="btn btn-secondary guardar" type="submit"
+                                    id="custom-cancelar">CANCELAR</a>
+
+                            </div>
+
+
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <% } %>   
+
+
+        
+    </main>
+
+
+    <footer>
+        <%- include('footer'); -%>
+        
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+         
+</body>
+</html>
