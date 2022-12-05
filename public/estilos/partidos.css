@@ -1,0 +1,142 @@
+main{
+    padding-top: 200px;
+    background-image: url("../imagenes/imagenes/fondo10.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.contener-fluid{
+    color:rgb(240, 232, 232);
+    
+    background-repeat: no-repeat;
+   
+    padding: 50px 0 200px 0;
+    
+    
+ }
+ .contenedorPartidos{
+    width: 100%;
+ }
+
+
+ .logo{
+    
+    width:20px ;
+    margin-left: 45px;
+}
+
+
+.aling {
+    text-align: center;
+    padding-bottom: 10px;
+    color:rgb(231, 212, 41);
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+} 
+
+
+
+#PrimerTitulo{
+    color: linen;
+    font-size: 35px;
+    text-shadow: 2px 4px blue;
+}
+  
+
+
+.titulo-seleccion {
+    color: rgb(187, 187, 207);
+    padding-top: 10px;
+    margin: 30px; 
+    text-align-last: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 50px;
+    
+}
+
+.titulos-futbol {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.linea{
+    border-bottom: 1px solid white;
+    width: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+.bandera{
+    width: 50px;
+}
+
+.partido{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    padding-top: 0px;
+    max-width: 705px;
+    background:linear-gradient(90deg, rgb(33 25 160) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+    filter: opacity(0.8);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+}
+
+.equipo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.equipos{
+    color: aliceblue;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.guion{
+    color:rgb(218, 240, 22);
+    font-size: 53px;
+    margin: 1px;
+}
+
+
+
+
+.fecha h5{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.titulo4{
+    color: aliceblue;
+}
+.titulo5{
+    color: black;
+}
+.seleccion{
+    color: black;
+}
+
+@media only screen and (min-width:768px){
+    .contenedorPartidos{
+        width: 45%;
+        display: inline-grid;
+    }
+    
+}
+
+@media only screen and (min-width:1200px){
+    .contenedorPartidos{
+        width: 20%;
+        margin-left: 50px;
+        
+    }
+    
+}
