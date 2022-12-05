@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: 'Poppins', sans-serif;*/
+}
+
+.titulo-futbol{
+    color:rgb(71, 19, 19);
+    border-style:outset;
+    margin:15rem 0 2rem 0 ;
+    background-color: #f3f3f3;
+}
+.partidos{
+    
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+.partido{
+    position: relative;
+    background-color: #f3f3f3;
+    
+    margin: 2rem;
+    height: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.partido img{
+    width: 5rem;
+    border-radius: 30px;
+}
+.fecha{
+    font-size: 20px;
+    padding-top: 2rem;
+   
+
+}
+.nuevo{
+    font-size: 30px;
+   
+    margin-bottom: 2rem;
+}
+.contrincantes{
+    
+    justify-content:space-evenly;
+    align-items: center;
+
+
+}
+.botonesedicion{
+    position: absolute;
+    top:0;
+    right: 15px; 
+    
+}
+
+/*Boton eliminar carta en pantalla registro (Usuario registrado) */
+.eliminar{
+    border: transparent;
+    background-color: transparent;
+    color: red;
+}
+/*Icono editar carta d jugar cargado*/
+.botonesedicion a{
+    color:rgb(255, 0, 0);
+}
+
+
+

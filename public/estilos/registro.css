@@ -1,0 +1,66 @@
+.register-form{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+    margin-top: 20rem;
+     font-size: 20px;
+     background-color: #f3f3f3;
+    margin-bottom: 20rem;
+    text-align: left !important;
+    box-shadow: 0 10px 38px rgba(0,00,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+
+
+}
+
+
+
+.btn-cancel:hover, btn-cancel:active{
+    color:#fff;
+    background-color: #687288;
+    border-color: #687280;
+}
+
+.btn-save{
+  
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  padding: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);width: 45%;
+ 
+   
+    
+}
+
+.btn-cancel{
+   
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#2e2f30 100%,#834dda 100%);
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+}

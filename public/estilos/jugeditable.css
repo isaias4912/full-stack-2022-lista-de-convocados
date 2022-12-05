@@ -1,0 +1,53 @@
+/* jugadores*/
+
+.nuevo{
+    font-size: 30px;
+}
+.row{
+    align-content: center;
+}
+main .container-fluid{
+    min-height: 30rem;
+}
+
+/*Posicion de las tarjetas con las imagenes resppectivas de cada jugador*/
+.card{
+   position: relative;
+   padding: 2rem;
+   border-radius: 10%;
+   width: 300px;
+   margin:2rem;
+
+}
+
+
+
+/*Boton de eliminar jugador, para ser cambiado por otro*/
+.eliminarjug{
+    border: transparent;
+    background-color: transparent;
+    color: red;
+}
+
+ .jugCont{
+    justify-content: space-around;
+    /* color: black; */
+
+ }
+ 
+ /*tamaño de cartas en pantalla "Registro (Usuario ya registrado)"*/
+.card-img-top{
+    height: 230px;
+    position: relative;
+
+
+}
+
+.botonesedicion{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 15px;
+    
+}
+

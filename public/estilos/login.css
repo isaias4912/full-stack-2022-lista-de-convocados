@@ -1,0 +1,42 @@
+.content-form{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+    margin-top: 20rem;
+     font-size: 20px;
+     background-color: #f2f5f5;
+    margin-bottom: 20rem;
+    text-align: left !important;
+  
+    
+
+}
+
+.btn{
+    width: 100%;
+    padding:.6rem ;
+    font-size: 20px;
+    margin-left: 0;
+}
+.links{
+    text-decoration: none;
+    margin:.4rem;
+    margin-left: 0;
+    padding:.6rem;
+    color:#ffff;
+    font-size: 20px;
+
+}
+input{
+    width: 100%;
+    padding:.4rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+
+}
+
+#edicion{
+    width: 30%;
+    color:#f2f5f5
+}

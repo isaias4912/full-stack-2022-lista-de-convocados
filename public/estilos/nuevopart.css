@@ -1,0 +1,81 @@
+
+.container{
+    padding: 7rem 0 10rem 0;
+    font-weight: 700;
+  
+    font-size: 20px;
+    margin-top: 7rem;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.row{
+  background-color: #f3f3f3;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background: #f3f3f3;
+    padding:2.5rem;
+    margin-top: 10px;
+
+   
+}
+
+#custom-btn{
+    margin-top: 5rem;
+    padding-bottom: 3rem;   
+    width: 100%;
+    
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
+  }
+  #custom-cancelar{
+    margin-left: 20px;
+    margin-top: 5rem; 
+   width: 100%;
+ 
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#2e2f30 100%,#834dda 100%);
+  }
+
+  .detalle{
+    align-items: center;
+    margin-top: 10px;
+  }
+  .detalle div{
+    margin-top: 2rem;
+
+  }
+  
+
+  @media only screen and (min-width: 1000px){
+    .detalle{
+       display: flex;
+    }
+    
+  }
