@@ -1,5 +1,6 @@
 
 
+//invocacion express
 const express = require("express")
 const app = express()
 const cookieParser = require('cookie-parser')
@@ -7,7 +8,7 @@ const dotenv = require('dotenv')
 
 
 app.use(cookieParser())
-
+//archivos estaticos
 app.use(express.static('public'))
 
 app.use('/estilos', express.static(__dirname + "/public/estilos"));
@@ -16,17 +17,17 @@ app.use('/js',express.static(__dirname +"/public/js"));
 
 
 
-
+//uso de plantillas ejs
 
 
 
 app.set("view engine", 'ejs')
 
-
+//capturar los datos de los formularios
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
-
+//RUTAS
 app.use('/', require('./rutas'))
 app.use('/partidos', require('./rutas'))
 app.use('/login', require('./rutas'))

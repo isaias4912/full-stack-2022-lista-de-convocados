@@ -21,6 +21,7 @@ router.get('/', (req, res)=>{
         if(err){
             throw err;
         }else{
+            
           
                          
             res.render("jugeditables", {results:results} )
@@ -36,7 +37,8 @@ router.get('/partidos',  (req, res)=>{
     conexion.query("SELECT partidos.id_partidos,partidos.fecha_partido, partidos.equipo_1, partidos.equipo_2, estadio.nombre_estadio, partidos.hora_partido FROM partidos INNER JOIN estadio ON partidos.estadio_id_estadio = estadio.id_estadio", (err, results) => {
         if(err){
             throw err;
-        }else{         
+        }else{  
+                   
           
                          
             res.render("partidoseditable", {results:results})
@@ -91,7 +93,7 @@ router.get('/delete/:id',(req,res)=>{
         if(error){
             throw error;
         }else{ 
-            res.rendirec('/')
+            res.redirect('/')
         }                   
             
         })
@@ -104,7 +106,8 @@ router.get('/deletePartido/:id',(req,res)=>{
         if(error){
             throw error;
         }else{ 
-            res.rendirec("/partidos")
+            res.redirect('/partidos')
+            
 
            
         }                   

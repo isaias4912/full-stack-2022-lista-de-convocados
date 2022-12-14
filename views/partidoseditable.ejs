@@ -54,10 +54,8 @@
                                 </h5>
                             </div>
 
-                            <h3> Fecha:
-                                "<%= new Date(partido.fecha_partido).getFullYear() + "-" + (new
-                                    Date(partido.fecha_partido).getMonth() +1 )+ "-" + new Date(partido.fecha_partido).getDate() %>"
-                            </h3>
+                            <h3 id="fechaPartido">"<%= new Date(partido.fecha_partido).getFullYear() + "-" + (new
+                                Date(partido.fecha_partido).getMonth() +1 )+ "-" + new Date(partido.fecha_partido).getDate()%>"</h3>
                             <h3>Hora: <%=partido.hora_partido %>
                             </h3>
                             <div class="d-flex contrincantes">
@@ -113,34 +111,10 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/fechas.js"></script>
 
-    <% if(typeof alert !='undefined' ) { %>
-        <script>
-            Swal.fire({
-                title: "<%= alertTitle %>",
-                text: "<%= alertMessage %>",
-                icon: "<%= alertIcon %>",
-                swowCancelButton: "<%= swowCancelButton %>",
-                ConfirmButtonColor: "<%= ConfirmButtonColor %>",
-                cancelButtonColor: "<%= cancelButtonColor %>",
+   
 
-                confirmButtonText: "<%= confirmButtonText %>",
-
-
-            }).then(() => {
-                if (result.isConfirmed) {
-                    Swal.fire(
-                        'Eliminado',
-                        'El partido ha sido eliminado',
-                        'success'
-                    )
-                    window.location = "/ <%= ruta%>"
-                }
-
-            })
-
-        </script>
-        <% } %>
             
 
 </body>

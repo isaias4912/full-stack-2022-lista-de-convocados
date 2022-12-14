@@ -6,7 +6,7 @@ const conexion = require('./database/bd')
 //jwt
 const jwt= require('jsonwebtoken')
 
-const {promisify} = require('util')
+
 
 
 function DeterminarIdPosicion(posicion) {
@@ -177,7 +177,7 @@ exports.registro = async (req, res) => {
                 alertIcon: "success",
                 swowConfirmButton: false,
                 timer: 1500,
-                ruta: '/login'
+                ruta: 'login'
 
             })
         }
@@ -218,12 +218,9 @@ exports.login = async (req, res) => {
                     ruta: 'login'
                 })
             } else {
-                
-                
 
 
-                //obtengo el nombre
-               const name = results[0].nombre_completo
+              
                 console.log(emailUser, passUser)
                 const id = results[0].id_usuarios
                 console.log(id)
@@ -232,7 +229,6 @@ exports.login = async (req, res) => {
 
                 
                
-                console.log("token:" + token + "para el usuario   " + name )
 
                 const cookiesOptions = {
                     expires: new Date(Date.now() + process.env.JWT_COOKIE_EXPIRES * 24 * 60 * 60 * 1000),
@@ -240,9 +236,10 @@ exports.login = async (req, res) => {
 
                 }
                 res.cookie('jwt', token, cookiesOptions)
+              
                 res.render('login', {
                      
-
+                    
                     alert:'true',
                     alertTitle:'Conexion exitosa',
                     alertMessage:"!login exitoso!",
@@ -267,29 +264,7 @@ exports.login = async (req, res) => {
 }
 
 
-//verificar si esta autenticado 
-exports.isAuthenticated = async(req, res, next) =>{
-    if(req.cookies.jwt){
-        try {
-            const decodificada = await promisify(jwt.verify)(req.cookies.jwt,process.env.JWT_SECRETO)
-            conexion.query('SECRET * FROM usuarios WHERE id_usuarios =?', [decodificada.id_usuarios],(error,results)=>{
-                if(!results){return next()}
-                console.log(req.user)
-                req.user=result[0].nombre_completo
-                console.log(req.user)
-                return next()
-            })
-            
-        } catch (error) {
-            console.log(error)
-            return next()
-            
-        }
-    }else{
-        res.redirect('/index')
-       
-    }
-}
+
 
 exports.logout = (req, res)=>{
     res.clearCookie('jwt')
